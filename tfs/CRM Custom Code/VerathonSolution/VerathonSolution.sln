@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{88A30576-7583-4F75-8136-5EFD2C14ADFF}") = "CrmPackage", "VerathonSolution\CrmPackage\CrmPackage.csproj", "{7CCD40BB-05A7-4E9F-8C62-9C999F803191}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{5267F35F-594C-4E21-B4BC-63CE362D7357} = {5267F35F-594C-4E21-B4BC-63CE362D7357}
+		{18AAB5C6-684A-434C-AF6A-074C3B822568} = {18AAB5C6-684A-434C-AF6A-074C3B822568}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "VerathonSolution\Plugins\Plugins.csproj", "{5267F35F-594C-4E21-B4BC-63CE362D7357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow", "VerathonSolution\Workflow\Workflow.csproj", "{18AAB5C6-684A-434C-AF6A-074C3B822568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GBSHelper", "VerathonSolution\GBSHelper\GBSHelper.csproj", "{DA33C030-6662-4955-89A7-8ED38E8DE108}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://bocp-p-tfs0:8080/tfs/verathon
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VerathonSolution\\CrmPackage\\CrmPackage.csproj
+		SccProjectName1 = VerathonSolution/CrmPackage
+		SccLocalPath1 = VerathonSolution\\CrmPackage
+		SccProjectUniqueName2 = VerathonSolution\\GBSHelper\\GBSHelper.csproj
+		SccProjectName2 = VerathonSolution/GBSHelper
+		SccLocalPath2 = VerathonSolution\\GBSHelper
+		SccProjectUniqueName3 = VerathonSolution\\Plugins\\Plugins.csproj
+		SccProjectName3 = VerathonSolution/Plugins
+		SccLocalPath3 = VerathonSolution\\Plugins
+		SccProjectUniqueName4 = VerathonSolution\\Workflow\\Workflow.csproj
+		SccProjectName4 = VerathonSolution/Workflow
+		SccLocalPath4 = VerathonSolution\\Workflow
+	EndGlobalSection
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CCD40BB-05A7-4E9F-8C62-9C999F803191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCD40BB-05A7-4E9F-8C62-9C999F803191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCD40BB-05A7-4E9F-8C62-9C999F803191}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7CCD40BB-05A7-4E9F-8C62-9C999F803191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCD40BB-05A7-4E9F-8C62-9C999F803191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCD40BB-05A7-4E9F-8C62-9C999F803191}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5267F35F-594C-4E21-B4BC-63CE362D7357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5267F35F-594C-4E21-B4BC-63CE362D7357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5267F35F-594C-4E21-B4BC-63CE362D7357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5267F35F-594C-4E21-B4BC-63CE362D7357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18AAB5C6-684A-434C-AF6A-074C3B822568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AAB5C6-684A-434C-AF6A-074C3B822568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AAB5C6-684A-434C-AF6A-074C3B822568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AAB5C6-684A-434C-AF6A-074C3B822568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA33C030-6662-4955-89A7-8ED38E8DE108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA33C030-6662-4955-89A7-8ED38E8DE108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA33C030-6662-4955-89A7-8ED38E8DE108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA33C030-6662-4955-89A7-8ED38E8DE108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

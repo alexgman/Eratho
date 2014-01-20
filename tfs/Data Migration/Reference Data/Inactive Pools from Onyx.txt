@@ -1,0 +1,14 @@
+﻿chUserId	chUserName	chGroupId	BusinessUnit	StatusReason	StateCode
+Pool_Bridg	pool-bridg                    	SALES_CAN 	Verathon Medical Canada (SBM)	Inactive	InActive
+Pool_C_HC 	Pool-Canada-High Cost Repairs 	SepUsers  	Verathon Medical Canada (SBM)	Inactive	InActive
+POOL_ECANA	Pool - East Canada            	          	Verathon Medical Canada (SBM)	Inactive	InActive
+POOL_EVENT	Pool - Event                  	SALES_IN  	Headquarters (HQ)	Inactive	InActive
+POOL_INT  	Pool - International Sales    	SepUsers  	Headquarters (HQ)	Inactive	InActive
+POOL_ISARO	Pool - Inside Sales ROW       	SepUsers  	Headquarters (HQ)	Inactive	InActive
+POOL_IT   	Pool - IT Dept                	INFO_TECH 	Headquarters (HQ)	Inactive	InActive
+POOL_IT_CL	Pool - IT Closed              	INFO_TECH 	Headquarters (HQ)	Inactive	InActive
+POOL_PR   	Pool - Puerto Rico            	SALES_LA  	Headquarters (HQ)	Inactive	InActive
+POOL_TBQ  	Pool - TBQ                    	SALES_IN  	Headquarters (HQ)	Inactive	InActive
+POOL_WCANA	Pool - West Cananda           	          	Headquarters (HQ)	Inactive	InActive
+POOL-ROW  	Pool - ROW                    	ACCOUNTING	Headquarters (HQ)	Inactive	InActive
+Pool-SEA  	Pool  - Sales SouthEast Asia  	SepUsers  	Headquarters (HQ)	Inactive	InActive

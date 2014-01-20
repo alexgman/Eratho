@@ -1,0 +1,239 @@
+﻿chCountryCode	chCountryDesc	chPhoneMask
+AD  	Andorra                       	+376 9999999999999999/x99999            
+AE  	U.A.E.                        	+/971 999999999999999/x99999            
+AF  	Afghanistan                   	+/93 99999999999999999/x99999           
+AG  	Antigua and Barbuda           	(999) 999-9999/x99999                   
+AI  	Anguilla                      	(999) 999-9999/x99999                   
+AL  	Albania                       	+355 9999999999999999/x99999            
+AM  	Armenia                       	+374 999999999999999/x99999             
+AN  	Netherland Antilles           	+5/9/9 999999999999999/x99999           
+AO  	Angola                        	+244 999999999999999/x99999             
+AQ  	Antartica                     	+672 999999999999999/x99999             
+AR  	Argentina                     	+54 999999999999999/x99999              
+AT  	Austria                       	+43 (0) 9999999999999999/x99999         
+AU  	Australia                     	+61 9999999999999999/x99999             
+AW  	Aruba                         	+297 999999999999999/x99999             
+AZ  	Azerbaijan                    	+/9/94 999999999999999/x99999           
+BA  	Bosnia-Herzegovina            	+387 999999999999999/x99999             
+BB  	Barbados                      	(999) 999-9999/x99999                   
+BD  	Bangladesh                    	+880 999999999999999/x99999             
+BE  	Belgium                       	+32 (0) 999999999999999/x99999          
+BF  	Burkina Faso                  	+226 999999999999999/x99999             
+BG  	Bulgaria                      	+35/9 999999999999999/x99999            
+BH  	Bahrain                       	+/973 999999999999999/x99999            
+BI  	Burundi                       	+257 999999999999999/x99999             
+BJ  	Benin                         	+22/9 999999999999999/x99999            
+BM  	Bermuda                       	(999) 999-9999/x99999                   
+BN  	Brunei Darussalam             	+673 999999999999999/x99999             
+BO  	Bolivia                       	+5/91 999999999999999/x99999            
+BR  	Brazil                        	+55 999999999999999/x99999              
+BS  	Bahamas                       	(999) 999-9999/x99999                   
+BT  	Bhutan                        	+/975 999999999999999/x99999            
+BV  	Bouvet Island                 	99999999999999999999/x99999             
+BW  	Botswana                      	+267 999999999999999/x99999             
+BY  	Belarus                       	+375 999999999999999/x99999             
+BZ  	Belize                        	+501 999999999999999/x99999             
+CA  	Canada                        	(999) 999-9999/x9999999999              
+CC  	Cocos (Keeling) Islands       	+61 999999999999999/x99999              
+CF  	Central African Republic      	+236 999999999999999/x99999             
+CG  	Congo                         	+242 999999999999999/x99999             
+CH  	Switzerland                   	+41 999999999999999/x99999              
+CI  	Cote D''Ivoire                	+225 99999999999999999/x99999           
+CK  	Cook Islands                  	+682 999999999999999/x99999             
+CL  	Chile                         	+56 999999999999999/x99999              
+CM  	Cameroon                      	+237 999999999999999/x99999             
+CN  	China                         	+86 999999999999999/x99999              
+CO  	Colombia                      	+57 999999999999999/x99999              
+CR  	Costa Rica                    	+506 999999999999999/x99999             
+CU  	Cuba                          	+53 999999999999999/x99999              
+CV  	Cape Verde                    	+238 999999999999999/x99999             
+CX  	Christmas Island              	+672 999999999999999/x99999             
+CY  	Cyprus                        	+357 999999999999999/x99999             
+CZ  	Czech Republic                	+420 999999999999999/x99999             
+DE  	Germany                       	+4/9 (0) 999999999999999/x99999         
+DJ  	Djibouti                      	+253 999999999999999/x99999             
+DK  	Denmark                       	+45 9999999999999999999/x99999          
+DM  	Dominica                      	(999) 999-9999/x9999999999              
+DO  	Dominican Republic            	(999) 999-9999/x9999999999              
+DZ  	Algeria                       	+213 999999999999999/x99999             
+EC  	Ecuador                       	+5/93 999999999999999/x99999            
+EE  	Estonia                       	+372 999999999999999/x99999             
+EG  	Egypt                         	+20 999999999999999/x99999              
+EH  	Western Sahara                	99999999999999999999/x99999             
+ES  	Spain                         	+34 999999999999999/x99999              
+ET  	Ethiopia                      	+251 999999999999999/x99999             
+FI  	Finland                       	+358 (0) 99999999999999999999/x99999    
+FJ  	Fiji                          	+67/9 999999999999999/x99999            
+FK  	Falkland Islands (Malvinas)   	+500 999999999999999/x99999             
+FM  	Micronesia, Fed. States of    	+6/91 999999999999999/x99999            
+FO  	Faeroe Islands                	+2/98 999999999999999/x99999            
+FR  	France                        	+33 (0) 999999999999999999999/x99999    
+GA  	Gabon                         	+241 999999999999999/x99999             
+GB  	United Kingdom                	+44 (0) 99999999999/x9999999999         
+GD  	Grenada                       	(999) 999-9999/x9999999999              
+GE  	Georgia                       	+/9/95 999999999999999/x99999           
+GF  	French Guiana                 	+5/94 999999999999999/x99999            
+GG  	Guernsey, C.I.                	+44 (0) 999999999999999999999/x99999    
+GH  	Ghana                         	+233 999999999999999/x99999             
+GI  	Gibraltar                     	+350 999999999999999/x99999             
+GL  	Greenland                     	+2/9/9 999999999999999/x99999           
+GM  	Gambia                        	+220 999999999999999/x99999             
+GN  	Guinea                        	+224 999999999999999/x99999             
+GP  	Guadeloupe                    	+5/90 999999999999999/x99999            
+GQ  	Equatorial Guinea             	+240 999999999999999/x99999             
+GR  	Greece                        	+30 999999999999999/x99999              
+GT  	Guatemala                     	+502 999999999999999/x99999             
+GW  	Guinea-Bissau                 	+245 999999999999999/x99999             
+GY  	Guyana                        	+5/92 999999999999999/x99999            
+HK  	Hong Kong                     	+852 999999999999999/x99999             
+HM  	Heard and McDonald Islands    	99999999999999999999/x99999             
+HN  	Honduras                      	+504 999999999999999/x99999             
+HR  	Croatia                       	+385 999999999999999/x99999             
+HT  	Haiti                         	+50/9 999999999999999/x99999            
+HU  	Hungary                       	+36 999999999999999/x99999              
+ID  	Indonesia                     	+62 999999999999999/x99999              
+IE  	Ireland                       	+353 99999999999999/x99999              
+IL  	Israel                        	+/972 999999999999999/x99999            
+IM  	Isle of Man                   	+44 (0) 99999999999999999/x99999        
+IN  	India                         	+/91 999999999999999/x99999             
+IO  	British Indian Ocean Territory	99999999999999999999/x99999             
+IQ  	Iraq                          	+/964 999999999999999/x99999            
+IR  	Iran (Islamic Republic of)    	+/98 999999999999999/x99999             
+IS  	Iceland                       	+354 999999999999999/x99999             
+IT  	Italy                         	+3/9 999999999999999/x99999             
+JE  	Jersey, C.I.                  	+44 (0) 9999999999999999999999/x99999   
+JM  	Jamaica                       	(999) 999-9999/x9999999999              
+JO  	Jordan                        	+/962 999999999999999/x99999            
+JP  	Japan                         	+81 999999999999999/x99999              
+KE  	Kenya                         	+254 999999999999999/x99999             
+KG  	Kyrgyzstan                    	+7 9999999999999/x99999                 
+KH  	Cambodia                      	+855 999999999999999/x99999             
+KI  	Kiribati                      	+686 999999999999999/x99999             
+KM  	Comoros                       	+26/9 999999999999999/x99999            
+KN  	Saint Kitts and Nevis         	(999) 999-9999/x9999999999              
+KP  	Korea, Dem. People''s Rep of  	+850 999999999999999/x99999             
+KR  	South Korea                   	+82 999999999999999/x99999              
+KW  	Kuwait                        	+/965 9999999999999/x99999              
+KY  	Cayman Islands                	(999) 999-9999/x9999999999              
+KZ  	Kazakhstan                    	+7 999999999999999/x99999               
+LA  	Lao Peoples Democratic Republi	+856 9999999999999/x99999               
+LB  	Lebanon                       	+/961 9999999999999/x99999              
+LC  	Saint Lucia                   	(999) 999-9999/x9999999999              
+LI  	Liechtenstein                 	+41 999999999999999/x99999              
+LK  	Sri Lanka                     	+/94 999999999999999/x99999             
+LR  	Liberia                       	+231 999999999999999/x99999             
+LS  	Lesotho                       	+266 999999999999999/x99999             
+LT  	Lithuania                     	+370 999999999999999/x99999             
+LU  	Luxembourg                    	+352 999999999999999/x99999             
+LV  	Latvia                        	+371 9999999999999/x99999               
+LY  	Libyan Arab Jamahiriya        	+218 999999999999999/x99999             
+MA  	Morocco                       	+212 999999999999999/x99999             
+MC  	Monaco                        	+377 999999999999999/x99999             
+MD  	Moldova, Republic of          	+373 999999999999999/x99999             
+MG  	Madagascar                    	+261 999999999999999/x99999             
+MH  	Marshall Islands              	+6/92 999999999999999/x99999            
+ML  	Mali                          	+223 999999999999999/x99999             
+MM  	Myanmar                       	+/95 999999999999999/x99999             
+MN  	Mongolia                      	+/976 999999999999999/x99999            
+MO  	Macau                         	+853 999999999999999/x99999             
+MP  	Northern Mariana Islands      	99999999999999999999/x99999             
+MQ  	Martinique                    	+5/96 999999999999999/x99999            
+MR  	Mauritania                    	+222 999999999999999/x99999             
+MS  	Montserrat                    	(999) 999-9999/x99999                   
+MT  	Malta                         	+356 999999999999999/x99999             
+MU  	Mauritius                     	+230 999999999999999/x99999             
+MV  	Maldives                      	+/960 999999999999999/x99999            
+MW  	Malawi                        	+265 999999999999999/x99999             
+MX  	Mexico                        	+52 999999999999999/x99999              
+MY  	Malaysia                      	+60 999999999999999/x99999              
+MZ  	Mozambique                    	+258 999999999999999/x99999             
+NA  	Namibia                       	+264 99999999999999/x99999              
+NC  	New Caledonia                 	+687 999999999999999/x99999             
+NE  	Niger                         	+227 999999999999999/x99999             
+NF  	Norfolk Island                	+672 999999999999999/x99999             
+NG  	Nigeria                       	+234 999999999999999/x99999             
+NI  	Nicaragua                     	+505 999999999999999/x99999             
+NL  	Netherlands                   	+31 (0) 99999999999999/x99999           
+NO  	Norway                        	+47 999999999999999/x99999              
+NP  	Nepal                         	+/977 99999999999999/x99999             
+NR  	Nauru                         	+674 99999999999999/x99999              
+NT  	Neutral Zone (Saudi/Iraq)     	99999999999999999999/x99999             
+NU  	Niue                          	+683 999999999999999/x99999             
+NZ  	New Zealand                   	+64 999999999999999/x99999              
+OM  	Oman                          	+/968 999999999999999/x99999            
+PA  	Panama                        	+507 999999999999999/x99999             
+PE  	Peru                          	+51 999999999999999/x99999              
+PF  	French Polynesia              	+68/9 999999999999999/x99999            
+PG  	Papua New Guinea              	+675 999999999999999/x99999             
+PH  	Philippines                   	+63 999999999999999/x99999              
+PK  	Pakistan                      	+/92 999999999999999/x99999             
+PL  	Poland                        	+48 999999999999999/x99999              
+PM  	St. Pierre and Miquelon       	+508 99999999999999/x99999              
+PN  	Pitcairn                      	99999999999999999999/x99999             
+PR  	Puerto Rico                   	(999) 999-9999/x9999999999              
+PT  	Portugal                      	+351 999999999999999/x99999             
+PW  	Palau                         	+680 999999999999999/x99999             
+PY  	Paraguay                      	+5/95 999999999999999/x99999            
+PZ  	Panama Canal Zone             	+507 999999999999999/x99999             
+QA  	Qatar                         	+/974 999999999999999/x99999            
+RE  	Reunion                       	+262 999999999999999/x99999             
+RO  	Romania                       	+40 999999999999999/x99999              
+RS  	Republic of Serbia            	+381 999999999999999/x99999             
+RU  	Russian Federation            	+7 999999999999999/x99999               
+RW  	Rwanda                        	+250 999999999999999/x99999             
+SA  	Saudi Arabia                  	+/966 999999999999999/x99999            
+SB  	Solomon Islands               	+677 999999999999999/x99999             
+SC  	Seychelles                    	+248 999999999999999/x99999             
+SD  	Sudan                         	+24/9 99999999999999/x99999             
+SE  	Sweden                        	+46 999999999999999/x99999              
+SG  	Singapore                     	+65 999999999999999/x99999              
+SH  	St. Helena                    	+2/90 99999999999999/x99999             
+SI  	Slovenia                      	+38 999999999999999/x99999              
+SJ  	Svalbard and Jan Mayen Islands	99999999999999999999/x99999             
+SK  	Slovakia                      	+421 999999999999999/x99999             
+SL  	Sierra Leone                  	+232 999999999999999/x99999             
+SM  	San Marino                    	+378 999999999999999/x99999             
+SN  	Senegal                       	+221 999999999999999/x99999             
+SO  	Somalia                       	+252 999999999999999/x99999             
+SR  	Suriname                      	+5/97 999999999999999/x99999            
+ST  	Sao Tome and Principe         	+23/9 999999999999999/x99999            
+SV  	El Salvador                   	+503 999999999999999/x99999             
+SY  	Syrian Arab Republic          	+/963 999999999999999/x99999            
+SZ  	Swaziland                     	+268 999999999999999/x99999             
+TC  	Turks and Caicos Islands      	(999) 999-9999/x9999999999              
+TD  	Chad                          	+235 999999999999999/x99999             
+TF  	French Southern Territories   	99999999999999999999/x99999             
+TG  	Togo                          	+228 999999999999999/x99999             
+TH  	Thailand                      	+66 999999999999999/x99999              
+TJ  	Tajikistan                    	+7 999999999999999/x99999               
+TK  	Tokelau                       	+6/90 999999999999999/x99999            
+TM  	Turkmenistan                  	+/9/93 999999999999999/x99999           
+TN  	Tunisia                       	+216 999999999999999/x99999             
+TO  	Tonga                         	+676 999999999999999/x99999             
+TP  	East Timor                    	99999999999999999999/x99999             
+TR  	Turkey                        	+/90 999999999999999/x99999             
+TT  	Trinidad and Tobago           	(999) 999-9999/x9999999999              
+TV  	Tuvalu                        	+688 999999999999999/x99999             
+TW  	Taiwan                        	+886 999999999999999/x99999             
+TZ  	Tanzania, United Republic of  	+255 999999999999999/x99999             
+UA  	Ukraine                       	+7 999999999999999/x99999               
+UG  	Uganda                        	+256 999999999999999/x99999             
+UM  	U.S.Minor Outlying Islands    	(999) 999-9999/x9999999999              
+US  	United States                 	999-999-9999/x9999999999                
+UY  	Uruguay                       	+5/98 999999999999999/x99999            
+UZ  	Uzbekistan                    	+7 999999999999999/x99999               
+VA  	Vatican City State            	+37/9 999999999999999/x99999            
+VC  	St. Vincent and the Grenadines	(999) 999-9999/x9999999999              
+VE  	Venezuela                     	+58 999999999999999/x99999              
+VG  	Virgin Islands (British)      	(999) 999-9999/x99999                   
+VI  	Virgin Islands (USA)          	999-999-9999/x9999999999                
+VN  	Viet Nam                      	+84 999999999999999/x99999              
+VU  	Vanuatu                       	+678 999999999999999/x99999             
+WF  	Wallis and Futuna Islands     	+681 999999999999999/x99999             
+WS  	Samoa                         	99999999999999999999/x99999             
+YE  	Yemen, Republic of            	+/967 999999999999999/x99999            
+YU  	Yugoslavia                    	+381 999999999999999/x99999             
+ZA  	South Africa                  	+27 999999999999999/x99999              
+ZM  	Zambia                        	+260 999999999999999/x99999             
+ZR  	Zaire                         	+243 999999999999999/x99999             
+ZW  	Zimbabwe                      	+263 999999999999999/x99999             

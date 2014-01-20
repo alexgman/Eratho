@@ -1,0 +1,57 @@
+﻿Name
+Advantage Healthcare Net
+All Health Group Purchasing
+Amerinet
+Associated Purchasing Services
+Beverly
+Catholic Materials Management Alliance
+CHAMPS Management Services
+Columbia HCA
+Department of Veterans Affairs
+Direct Medical Equipment and Supplies
+FR-APHP
+FR-CAC
+FR-CACIC
+FR-CAHP
+FR-CLINEA
+FR-COS
+FR-Générale de Santé
+FR-HCL
+FR-HELPEVIA
+FR-KORIAN
+FR-LADAPT
+FR-ORPEA
+FR-REPOTEL
+FR-UGECAM
+FR-VITALIA
+GNYHA Ventures
+GSA
+Health Affiliated Services
+Health Services Corp of America
+Healthcare Group Purchasing
+Healthcare Purchasing Partners
+Hospital Central Services Corp
+Hospital Council Shared Plus
+Hospital Purchasing Service
+Hospital Shared Services
+HSNE Inc.
+Intermountain Healthcare
+Joint Purchasing Corporation
+Kaiser Permanente
+Magnet
+MedEcon Services Inc.
+Multisource
+New Jersey Hospital Association
+None
+Other
+Owen Healthcare
+Premier
+Primenet
+Purchase Connection
+Shared Service Healthcare
+SSM - Diversified Health Services
+Tenet Buypower
+Texas Hospital Association
+University HealthSystem Consortium (UHC)
+Vector Health Systems
+VHA Inc.

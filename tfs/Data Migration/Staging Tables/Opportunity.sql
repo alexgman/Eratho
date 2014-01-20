@@ -1,0 +1,87 @@
+USE [CRM_Staging]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+If  Object_ID('[dbo].[Opportunity]') IS NOT NULL
+
+DROP TABLE [dbo].[Opportunity]
+go
+BEGIN
+CREATE TABLE [dbo].[Opportunity](
+	[OpportunityId] [uniqueidentifier] null DEFAULT (newid()),
+	[PriceLevelId] [uniqueidentifier] NULL,
+	[OpportunityRatingCode] [int] NULL,
+	
+[PriorityCode] [int],
+[Name] [nvarchar](600),
+[StepId] [uniqueidentifier],
+[Description] [nvarchar](200),
+[EstimatedValue] [money],
+[StepName] [nvarchar](400),
+[SalesStageCode] [int],
+[ParticipatesInWorkflow] [bit],
+[PricingErrorCode] [int],
+[EstimatedCloseDate] [datetime],
+[CloseProbability] [int],
+[ActualValue] [money],
+[ActualCloseDate] [datetime],
+[OwningBusinessUnit] [uniqueidentifier],
+[OriginatingLeadId] [uniqueidentifier],
+[CreatedOn] [datetime],
+[IsPrivate] [bit],
+[CreatedBy] [uniqueidentifier],
+[ModifiedOn] [datetime],
+[ModifiedBy] [uniqueidentifier],
+[VersionNumber] [timestamp],
+[StateCode] [int],
+[StatusCode] [int],
+[IsRevenueSystemCalculated] [bit],
+[CampaignId] [uniqueidentifier],
+[TransactionCurrencyId] [uniqueidentifier],
+[ExchangeRate] [decimal],
+[ImportSequenceNumber] [int],
+[UTCConversionTimeZoneCode] [int],
+[TimeZoneRuleVersionNumber] [int],
+[OverriddenCreatedOn] [datetime],
+[ActualValue_Base] [money],
+[EstimatedValue_Base] [money],
+[TotalDiscountAmount] [money],
+[ModifiedOnBehalfBy] [uniqueidentifier],
+[TotalAmount] [money],
+[CreatedOnBehalfBy] [uniqueidentifier],
+[TotalAmountLessFreight] [money],
+[TotalLineItemDiscountAmount] [money],
+[CustomerId] [uniqueidentifier],
+[DiscountAmount] [money],
+[OwnerId] [uniqueidentifier],
+[FreightAmount] [money],
+[TotalTax] [money],
+[DiscountPercentage] [decimal],
+[TotalLineItemAmount] [money],
+[CustomerIdName] [nvarchar](200),
+[CustomerIdType] [int],
+[OwnerIdType] [int],
+[TotalDiscountAmount_Base] [money],
+[FreightAmount_Base] [money],
+[TotalLineItemAmount_Base] [money],
+[TotalTax_Base] [money],
+[TotalLineItemDiscountAmount_Base] [money],
+[TotalAmount_Base] [money],
+[DiscountAmount_Base] [money],
+[TotalAmountLessFreight_Base] [money],
+[CustomerIdYomiName] [nvarchar](200),
+
+[vth_PrimaryContactId] [uniqueidentifier],
+[vth_CustomerPO] [nvarchar](200),
+[vth_Department] [int],
+[vth_OpportunityNumber] [int],
+[vth_Type] [int],
+[vth_Source] [int],
+[vth_Competitor] [bit],
+[vth_TerritoryId] [uniqueidentifier],
+[vth_ProductBrand] [int],
+[vth_ProductModel] [int],
+[vth_Probability] [int]
+)END

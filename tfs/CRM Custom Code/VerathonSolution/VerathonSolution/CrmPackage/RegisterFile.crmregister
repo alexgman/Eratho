@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="VerathonSolution.Plugins.dll" Id="f051abf4-424f-40ad-992b-52948f0940c4" IsolationMode="None" SourceType="Database">
+      <PluginTypes>
+        <Plugin Description="Plug-in to PreCompanyCreate" FriendlyName="PreCompanyCreate" Name="VerathonSolution.Plugins.PreCompanyCreate" Id="3477042a-a90d-e211-949b-005056a37549" TypeName="VerathonSolution.Plugins.PreCompanyCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;config&gt;&lt;gbs_nextidId&gt;4B1744F6-0604-E211-91BD-005056A37549&lt;/gbs_nextidId&gt;&lt;/config&gt;" Name="PreCompanyCreate" Description="Pre-Operation of Company Create" Id="68f763d1-2b04-e211-91bd-005056a37549" MessageName="Create" Mode="Synchronous" PrimaryEntityName="account" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreContactCreate" FriendlyName="PreContactCreate" Name="VerathonSolution.Plugins.PreContactCreate" Id="3577042a-a90d-e211-949b-005056a37549" TypeName="VerathonSolution.Plugins.PreContactCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;config&gt;&lt;gbs_nextidId&gt;4B1744F6-0604-E211-91BD-005056A37549&lt;/gbs_nextidId&gt;&lt;/config&gt;" Name="PreContactCreate" Description="Pre-Operation of Contact Create" Id="5b02f978-e604-e211-91bd-005056a37549" MessageName="Create" Mode="Synchronous" PrimaryEntityName="contact" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreOpportunityCreate" FriendlyName="PreOpportunityCreate" Name="VerathonSolution.Plugins.PreOpportunityCreate" Id="3677042a-a90d-e211-949b-005056a37549" TypeName="VerathonSolution.Plugins.PreOpportunityCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;config&gt;&lt;gbs_nextidId&gt;4AA67E39-7B06-E211-91BD-005056A37549&lt;/gbs_nextidId&gt;&lt;/config&gt;" Name="PreOpportunityCreate" Description="Pre-Operation of Opportunity Create" Id="af010196-ec6d-4113-950a-9f5e1dead535" MessageName="Create" Mode="Synchronous" PrimaryEntityName="opportunity" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreServiceRequestCreate" FriendlyName="PreServiceRequestCreate" Name="VerathonSolution.Plugins.PreServiceRequestCreate" Id="3a77042a-a90d-e211-949b-005056a37549" TypeName="VerathonSolution.Plugins.PreServiceRequestCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;config&gt;&lt;gbs_nextidId&gt;7B6185E1-0F08-E211-91BD-005056A37549&lt;/gbs_nextidId&gt;&lt;/config&gt;" Name="PreServiceRequestCreate" Description="Pre-Operation of Service Request Create" Id="73169250-1508-e211-91bd-005056a37549" MessageName="Create" Mode="Synchronous" PrimaryEntityName="incident" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreQuoteCreate" FriendlyName="PreQuoteCreate" Name="VerathonSolution.Plugins.PreQuoteCreate" Id="3977042a-a90d-e211-949b-005056a37549" TypeName="VerathonSolution.Plugins.PreQuoteCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;config&gt;&lt;gbs_nextidId&gt;2B26D67E-C808-E211-91BD-005056A37549&lt;/gbs_nextidId&gt;&lt;/config&gt;" Name="PreQuoteCreate" Description="Pre-Operation of Quote Create" Id="0aee47a4-ca08-e211-91bd-005056a37549" MessageName="Create" Mode="Synchronous" PrimaryEntityName="quote" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreOrderCreate" FriendlyName="PreOrderCreate" Name="VerathonSolution.Plugins.PreOrderCreate" Id="3777042a-a90d-e211-949b-005056a37549" TypeName="VerathonSolution.Plugins.PreOrderCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;config&gt;&lt;gbs_nextidId&gt;0FAB4DBB-1A09-E211-91BD-005056A37549&lt;/gbs_nextidId&gt;&lt;/config&gt;" Name="PreOrderCreate" Description="Pre-Operation of Order Create" Id="45a316d4-2409-e211-91bd-005056a37549" MessageName="Create" Mode="Synchronous" PrimaryEntityName="salesorder" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreOrderUpdate" FriendlyName="PreOrderUpdate" Name="VerathonSolution.Plugins.PreOrderUpdate" Id="3877042a-a90d-e211-949b-005056a37549" TypeName="VerathonSolution.Plugins.PreOrderUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;config&gt;&lt;gbs_nextidId&gt;0FAB4DBB-1A09-E211-91BD-005056A37549&lt;/gbs_nextidId&gt;&lt;/config&gt;" Name="PreOrderUpdate" Description="Pre-Operation of Order Update" Id="8cee1727-0c0c-e211-a38f-005056a37549" MessageName="Update" Mode="Synchronous" PrimaryEntityName="salesorder" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="preImage" Id="8fee1727-0c0c-e211-a38f-005056a37549" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreCustomerLiteratureCreate" FriendlyName="PreCustomerLiteratureCreate" Name="VerathonSolution.Plugins.PreCustomerLiteratureCreate" Id="c81dc1fc-fc10-e211-949b-005056a37549" TypeName="VerathonSolution.Plugins.PreCustomerLiteratureCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="&lt;config&gt;&lt;gbs_nextidId&gt;09E45FAE-F610-E211-949B-005056A37549&lt;/gbs_nextidId&gt;&lt;/config&gt;" Name="PreCustomerLiteratureCreate" Description="Pre-Operation of Customer Literature Create" Id="c91dc1fc-fc10-e211-949b-005056a37549" MessageName="Create" Mode="Synchronous" PrimaryEntityName="vth_customerliterature" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreCompanyUpdate" FriendlyName="PreCompanyUpdate" Name="VerathonSolution.Plugins.PreCompanyUpdate" Id="e32fbbb1-7211-e211-949b-005056a37549" TypeName="VerathonSolution.Plugins.PreCompanyUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PreCompanyUpdate" Description="Pre-Operation of Company Update" Id="e42fbbb1-7211-e211-949b-005056a37549" MessageName="Update" Mode="Synchronous" PrimaryEntityName="account" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="preImage" Id="e72fbbb1-7211-e211-949b-005056a37549" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostAssociates" FriendlyName="PostAssociates" Name="VerathonSolution.Plugins.PostAssociates" Id="420419bd-9fe7-404e-a5e3-afa582f21dd3" TypeName="VerathonSolution.Plugins.PostAssociates">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostAssociates" Description="Post-Operations of Associates" Id="b8bcdadd-e517-e211-949b-005056a37549" MessageName="Associate" Mode="Synchronous" PrimaryEntityName="" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreOpportunityUpdate" FriendlyName="PreOpportunityUpdate" Name="VerathonSolution.Plugins.PreOpportunityUpdate" Id="2349be86-e418-e211-88f4-005056a37549" TypeName="VerathonSolution.Plugins.PreOpportunityUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PreOpportunityUpdate" Description="Pre-Operation of Opportunity Update" Id="2449be86-e418-e211-88f4-005056a37549" MessageName="Update" Mode="Synchronous" PrimaryEntityName="opportunity" Rank="1" SecureConfiguration="" Stage="PreInsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="preImage" Id="2749be86-e418-e211-88f4-005056a37549" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostDisassociates" FriendlyName="PostDisassociates" Name="VerathonSolution.Plugins.PostDisassociates" Id="76aad578-2b1e-e211-88f4-005056a37549" TypeName="VerathonSolution.Plugins.PostDisassociates">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostDisassociates" Description="Post-Operation of Disassociate" Id="77aad578-2b1e-e211-88f4-005056a37549" MessageName="Disassociate" Mode="Synchronous" PrimaryEntityName="" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostOpportunityProductCreate" FriendlyName="PostOpportunityProductCreate" Name="VerathonSolution.Plugins.PostOpportunityProductCreate" Id="bc22b321-dc22-e211-88f4-005056a37549" TypeName="VerathonSolution.Plugins.PostOpportunityProductCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostOpportunityProductCreate" Description="Post-Operation of Opportunity Product Create" Id="bd22b321-dc22-e211-88f4-005056a37549" MessageName="Create" Mode="Synchronous" PrimaryEntityName="opportunityproduct" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="postImage" Id="c022b321-dc22-e211-88f4-005056a37549" MessagePropertyName="id" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostOpportunityProductUpdate" FriendlyName="PostOpportunityProductUpdate" Name="VerathonSolution.Plugins.PostOpportunityProductUpdate" Id="3401a7e3-8523-e211-88f4-005056a37549" TypeName="VerathonSolution.Plugins.PostOpportunityProductUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostOpportunityProductUpdate" Description="Post-Operation of Opportunity Product Update" Id="3501a7e3-8523-e211-88f4-005056a37549" MessageName="Update" Mode="Synchronous" PrimaryEntityName="opportunityproduct" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="preImage" Id="3801a7e3-8523-e211-88f4-005056a37549" MessagePropertyName="Target" ImageType="PreImage" />
+                <Image EntityAlias="postImage" Id="3901a7e3-8523-e211-88f4-005056a37549" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostQuoteProductCreate" FriendlyName="PostQuoteProductCreate" Name="VerathonSolution.Plugins.PostQuoteProductCreate" Id="3b8a186d-9323-e211-88f4-005056a37549" TypeName="VerathonSolution.Plugins.PostQuoteProductCreate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostQuoteProductCreate" Description="Post-Operation of Quote Product Create" Id="da94be73-9323-e211-88f4-005056a37549" MessageName="Create" Mode="Synchronous" PrimaryEntityName="quotedetail" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="postImage" Id="dd94be73-9323-e211-88f4-005056a37549" MessagePropertyName="id" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostQuoteProductUpdate" FriendlyName="PostQuoteProductUpdate" Name="VerathonSolution.Plugins.PostQuoteProductUpdate" Id="42262df0-4b24-e211-88f4-005056a37549" TypeName="VerathonSolution.Plugins.PostQuoteProductUpdate">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostQuoteProductUpdate" Description="Post-Operation of Quote Product Update" Id="cc1543f7-4b24-e211-88f4-005056a37549" MessageName="Update" Mode="Synchronous" PrimaryEntityName="quotedetail" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images>
+                <Image EntityAlias="preImage" Id="cf1543f7-4b24-e211-88f4-005056a37549" MessagePropertyName="Target" ImageType="PreImage" />
+                <Image EntityAlias="postImage" Id="d01543f7-4b24-e211-88f4-005056a37549" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostProductRetrieveMultiple" FriendlyName="PostProductRetrieveMultiple" Name="VerathonSolution.Plugins.PostProductRetrieveMultiple" Id="adffc7d3-1325-e211-88f4-005056a37549" TypeName="VerathonSolution.Plugins.PostProductRetrieveMultiple">
+          <Steps>
+            <clear />
+            <Step CustomConfiguration="" Name="PostProductRetrieveMultiple" Description="Post-Operation of Product RetrieveMultiple" Id="c3ab2558-1925-e211-88f4-005056a37549" MessageName="RetrieveMultiple" Mode="Synchronous" PrimaryEntityName="product" Rank="1" SecureConfiguration="" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+    <Solution Assembly="VerathonSolution.Workflow.dll" Id="4323bd8e-2b04-e211-91bd-005056a37549" IsolationMode="None" SourceType="Database" />
+  </Solutions>
+  <XamlWorkflows />
+</Register>

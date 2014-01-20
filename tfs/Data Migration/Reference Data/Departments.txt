@@ -1,0 +1,118 @@
+Name
+Accident & Emergency
+Accounts Payable
+Acute
+Administrative
+Allergy
+Ambulatory Care
+Anaesthetics
+Anesthesia
+Bariatry
+Bio-Medical
+Business Development
+Cardiology
+Central Supply
+Clinical
+Continence
+Cosmetic
+Critical Care Unit
+Customer Service
+Day Surgery
+Dermatology
+Development
+Diagnostic Centre
+Doctors
+EAU
+EBME
+Education
+Elderly Care
+Emergency Room
+Endocrinology
+Engineering
+Equities Research
+Facilities
+Family Practice
+Finance
+Gastroenterology
+General Practice
+General Practitioner
+Geriatrics
+Gynaecology
+Gyneacology
+Gynecology
+HDU
+Health Centres
+Home Health
+Hospital
+ICU
+Infection Control
+Information Tech.
+Inpatient Rehab
+Internal Medicine
+Investment Banking
+Labor & Delivery
+Laboratory
+Legal
+Managed Care
+Management
+Materials Management
+Maternity
+MAU
+Medical Technology
+Med-Surg
+Nephrology
+Neurology
+Neurosurgery
+Nursing
+Obstetrics
+Occupational Therapy
+Oncology
+Operations
+OR
+Orthopaedics
+Orthopedics
+Other
+Outpatient Rehab
+Outpatient Surgery
+Outpatients
+PACU
+Paediatrics
+Patient Care
+Pediatrics
+Physical Therapy
+Physician
+Physiotherapy
+Podiatry
+Preoperative/Postoperative
+Procurement
+Psychiatric
+Pulmonary
+Purchasing
+Radiology
+Recovery Room
+Rehabilitation
+Rehabilitation Centre
+Research and Development
+Respiratory Therapy
+Risk Management
+Sales
+Shipping
+Skilled Nursing
+Stroke & Rehabilitation
+Sub-Acute
+Supplies
+Surgery
+Surgical Recovery
+Technical Support
+Telemetry
+Theatre
+Transitional Care Unit
+Transplant
+Urodynamic
+Uro-gynaecology
+Urology
+Uro-Therapy
+Vascular
+Venture Investment
+Women’s Health
+X-Ray

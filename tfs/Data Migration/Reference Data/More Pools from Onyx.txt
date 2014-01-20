@@ -1,0 +1,3 @@
+chUserId	chUserName	chGroupId	BusinessUnit
+POOL_ISAEU 	Pool - Inside Sales EU                     	SALES_EURO	Netherlands (EU)
+POOL_ISAAU 	Pool - Inside Sales AU                     	SALES_EURO	Australia (AU)

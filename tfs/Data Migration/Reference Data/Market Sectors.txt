@@ -1,0 +1,110 @@
+Name
+Accident & Emergency
+Acute
+Ambulance Service
+Anaesthetics
+Anesthesiology
+Assisted Living
+BioMed
+Cardiology
+CardioThoracic
+Central Supply
+Continence Clinic
+Critical Care Unit
+Day Surgery
+Dermatology
+Diagnostic Centre
+Dialysis
+DOD
+EAU
+Elderly Care
+Emergency Room (ER)
+EMT/Paramedics
+Endocrinology
+Family Practice
+Fire Department
+Gastroenterology
+Geriatrics – Primary Care
+Geriatrics- Acute
+Gynaecology
+Gyneacology & Obstetrics
+Gynecology - Acute
+Gynecology – Primary Care
+Haematology
+HDU
+Health Care Centers
+Home Health
+Hospice
+ICU (Intensive Care Unit)
+ICU/Recovery Room
+Indian - Health
+Individual (6300)
+Infection
+Infection Control
+Inpatient Rehab
+Internal Medicine – Acute
+Internal Medicine – Primary Care
+Labor & Delivery
+Life Flight
+Materials Management
+MAU
+Medical Unit
+MedSurg
+Nephrology
+Neurology - Acute
+Neurology – Primary Care
+Neurosurgery
+Nursing Home
+Obstetrics – Acute
+Obstetrics – Primary Care
+Occupational Therapy
+Oncology
+Opthalmology
+OR
+Oral Surgery
+Orthopaedics
+Orthopedics
+Osteopathy
+Other - Distributor
+Outpatient Clinic
+Outpatient Rehab
+Outpatient Surgery
+PACU
+Paediatrics
+Pain Management
+Palliative Care
+Pediatrics
+Physiatrists
+Physical Therapy
+Primary Care
+Private
+Psych
+Purchasing
+R&D
+Radiology
+Recovery/Recovery Room
+Rehab Department
+Rehabilitation Centre
+SIM-Center
+Skilled Nursing
+Stroke & Rehab
+Sub Acute
+Surgery
+Surgical Recovery
+Surgical Unit
+Telemetry
+Thoracic Medicine
+Transitional Care Unit
+Transplant
+Uro Gyn
+Urodynamic
+Uro-gynaecology
+Urologist – Private Practice
+Urology - Acute
+Urology – Primary Care
+Uro-therapy
+VA
+VA – CBOC
+Veteran Home
+Women’s Health
+Women’s Unit

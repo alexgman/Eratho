@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5267F35F-594C-4E21-B4BC-63CE362D7357}</ProjectGuid>
+    <ProjectTypeGuids>{4C25E9B5-9FA6-436c-8E19-B395D2A65FAF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VerathonSolution.Plugins</RootNamespace>
+    <AssemblyName>VerathonSolution.Plugins</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>VerathonSolution.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="microsoft.crm.sdk.proxy">
+      <HintPath>..\Common\microsoft.crm.sdk.proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="microsoft.xrm.sdk">
+      <HintPath>..\Common\microsoft.xrm.sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Runtime.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\GBSHelper\Entities.cs">
+      <Link>Entities.cs</Link>
+    </Compile>
+    <Compile Include="..\GBSHelper\GBSEntities.cs">
+      <Link>GBSEntities.cs</Link>
+    </Compile>
+    <Compile Include="..\GBSHelper\Helper.cs">
+      <Link>Helper.cs</Link>
+    </Compile>
+    <Compile Include="..\GBSHelper\OptionSets.cs">
+      <Link>OptionSets.cs</Link>
+    </Compile>
+    <Compile Include="PostAssociates.cs" />
+    <Compile Include="PostDisassociates.cs" />
+    <Compile Include="PostOpportunityProductCreate.cs" />
+    <Compile Include="PostOpportunityProductUpdate.cs" />
+    <Compile Include="PostProductRetrieveMultiple.cs" />
+    <Compile Include="PostQuoteProductCreate.cs" />
+    <Compile Include="PostQuoteProductUpdate.cs" />
+    <Compile Include="PreCompanyCreate.cs" />
+    <Compile Include="PreCompanyUpdate.cs" />
+    <Compile Include="PreCompetitorUpdate.cs" />
+    <Compile Include="PreContactCreate.cs" />
+    <Compile Include="PreCustomerLiteratureCreate.cs" />
+    <Compile Include="PreOpportunityCreate.cs" />
+    <Compile Include="PreOpportunityProductCreateUpdate.cs" />
+    <Compile Include="PreOpportunityUpdate.cs" />
+    <Compile Include="PreOrderCreate.cs" />
+    <Compile Include="PreOrderUpdate.cs" />
+    <Compile Include="PreQuoteCreate.cs" />
+    <Compile Include="PreServiceRequestCreate.cs" />
+    <Compile Include="PreValidateOpportunityUpdate.cs" />
+    <Compile Include="PreValidateQuoteCreate.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Plugin.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VerathonSolution.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

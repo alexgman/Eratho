@@ -1,0 +1,68 @@
+﻿TaskID	vchTaskCode	vchTaskDescription	iDatePartCount	chDatePartType	chAssignedTo	Entity_DBName	StatusReason	StatusCode
+1	PHONECALL	30 Day Service Call Back - Validate In-Service	30	DY	POOL_ISA	DXU	0	Inactive
+2	PHONECALL	6 Month Service Call Back - Check Up	6	MM	POOL_ISA	DXU	0	Inactive
+3	PHONECALL	11 Month Sales Call  - Warranty Expiration	11	MM	POOL_ISA	DXU	0	Inactive
+4	PHONECALL	10 Month Service Call - Recalibrate Unit	10	MM	POOL_ISA	DXU	0	Inactive
+5	MEETING	6 Day Meeting	6	DY	POOL_ISA	DXU	0	Inactive
+6	PHONECALL	Trade In Follow Up	7	DY	POOL_ISA	DXU	1	Active
+7	PHONECALL	30 days call back – BladderScan	30	DY	POOL_30DAY	DXU	1	Active
+8	PHONECALL	30 days call back – GlideScope	30	DY	POOL_30DAY	DXU	1	Active
+9	PHONECALL	Eval Call Back	14	DY	POOL_EVAL	DXU	1	Active
+10	PHONECALL	GlideScope Warranty	11	MM	POOL_ISA	DXU	1	Active
+11	PHONECALL	BladderScan Warranty	11	MM	POOL_ISA	DXU	1	Active
+12	PHONECALL	Certification	11	MM	POOL_ISA	DXU	1	Active
+13	PHONECALL	ScanPoint Renewal	11	MM	POOL_ISA	DXU	1	Active
+14	PHONECALL	FloPoint Warranty	11	MM	POOL_ISA	DXU	1	Active
+15	PHONECALL	Canada 30 Days Call Back	30	DY	POOL_ISACA	DXU	1	Active
+16	PHONECALL	Canada CARC Calls	11	MM	POOL_ISACA	DXU	1	Active
+17	PHONECALL	GS Access Follow Up	1	DY	Pool_GSA	DXU	1	Active
+18	PHONECALL	GlideScope Cost Per Stat	32	MM	POOL_ISA	DXU	1	Active
+19	PHONECALL	Service Center Partner	7	DY	pool_SVC_P	DXU	1	Active
+32	PHONECALL	Trade In Follow Up	7	DY	POOL_ISAEU	DXUNL	1	Active
+33	PHONECALL	30 days call back – BladderScan	30	DY	POOL_ISAEU	DXUNL	1	Active
+34	PHONECALL	30 days call back – GlideScope	30	DY	POOL_ISAEU	DXUNL	1	Active
+35	PHONECALL	Eval Call Back	14	DY	POOL_ISAEU	DXUNL	1	Active
+36	PHONECALL	GlideScope Warranty	11	MM	POOL_ISAEU	DXUNL	1	Active
+37	PHONECALL	BladderScan Warranty	11	MM	POOL_ISAEU	DXUNL	1	Active
+38	PHONECALL	Certification	11	MM	POOL_ISAEU	DXUNL	1	Active
+39	PHONECALL	ScanPoint Renewal	11	MM	POOL_ISAEU	DXUNL	1	Active
+40	PHONECALL	FloPoint Warranty	11	MM	POOL_ISAEU	DXUNL	1	Active
+41	PHONECALL	GS Access Follow Up	1	DY	POOL_ISAEU	DXUNL	1	Active
+42	PHONECALL	GlideScope Cost Per Stat	32	MM	POOL_ISAEU	DXUNL	1	Active
+43	PHONECALL	Service Center Partner	7	DY	POOL_ISAEU	DXUNL	1	Active
+44	PHONECALL	Trade In Follow Up	7	DY	POOL_ISAUK	DXUUK	1	Active
+45	PHONECALL	30 days call back – BladderScan	30	DY	POOL_ISAUK	DXUUK	1	Active
+46	PHONECALL	30 days call back – GlideScope	30	DY	POOL_ISAUK	DXUUK	1	Active
+47	PHONECALL	Eval Call Back	14	DY	POOL_ISAUK	DXUUK	1	Active
+48	PHONECALL	GlideScope Warranty	11	MM	POOL_ISAUK	DXUUK	1	Active
+49	PHONECALL	BladderScan Warranty	11	MM	POOL_ISAUK	DXUUK	1	Active
+50	PHONECALL	Certification	11	MM	POOL_ISAUK	DXUUK	1	Active
+51	PHONECALL	ScanPoint Renewal	11	MM	POOL_ISAUK	DXUUK	1	Active
+52	PHONECALL	FloPoint Warranty	11	MM	POOL_ISAUK	DXUUK	1	Active
+53	PHONECALL	GS Access Follow Up	1	DY	POOL_ISAUK	DXUUK	1	Active
+54	PHONECALL	GlideScope Cost Per Stat	32	MM	POOL_ISAUK	DXUUK	1	Active
+55	PHONECALL	Service Center Partner	7	DY	POOL_ISAUK	DXUUK	1	Active
+56	PHONECALL	Trade In Follow Up	7	DY	POOL_ISAAU	VMAU	1	Active
+57	PHONECALL	30 days call back – BladderScan	30	DY	POOL_ISAAU	VMAU	1	Active
+58	PHONECALL	30 days call back – GlideScope	30	DY	POOL_ISAAU	VMAU	1	Active
+59	PHONECALL	Eval Call Back	14	DY	POOL_ISAAU	VMAU	1	Active
+60	PHONECALL	GlideScope Warranty	11	MM	POOL_ISAAU	VMAU	1	Active
+61	PHONECALL	BladderScan Warranty	11	MM	POOL_ISAAU	VMAU	1	Active
+62	PHONECALL	Certification	11	MM	POOL_ISAAU	VMAU	1	Active
+63	PHONECALL	ScanPoint Renewal	11	MM	POOL_ISAAU	VMAU	1	Active
+64	PHONECALL	FloPoint Warranty	11	MM	POOL_ISAAU	VMAU	1	Active
+65	PHONECALL	GS Access Follow Up	1	DY	POOL_ISAAU	VMAU	1	Active
+66	PHONECALL	GlideScope Cost Per Stat	32	MM	POOL_ISAAU	VMAU	1	Active
+67	PHONECALL	Service Center Partner	7	DY	POOL_ISAAU	VMAU	1	Active
+68	PHONECALL	Trade In Follow Up	7	DY	POOL_ISAFR	VMFR	1	Active
+69	PHONECALL	30 days call back – BladderScan	30	DY	POOL_ISAFR	VMFR	1	Active
+70	PHONECALL	30 days call back – GlideScope	30	DY	POOL_ISAFR	VMFR	1	Active
+71	PHONECALL	Eval Call Back	14	DY	POOL_ISAFR	VMFR	1	Active
+72	PHONECALL	GlideScope Warranty	11	MM	POOL_ISAFR	VMFR	1	Active
+73	PHONECALL	BladderScan Warranty	11	MM	POOL_ISAFR	VMFR	1	Active
+74	PHONECALL	Certification	11	MM	POOL_ISAFR	VMFR	1	Active
+75	PHONECALL	ScanPoint Renewal	11	MM	POOL_ISAFR	VMFR	1	Active
+76	PHONECALL	FloPoint Warranty	11	MM	POOL_ISAFR	VMFR	1	Active
+77	PHONECALL	GS Access Follow Up	1	DY	POOL_ISAFR	VMFR	1	Active
+78	PHONECALL	GlideScope Cost Per Stat	32	MM	POOL_ISAFR	VMFR	1	Active
+79	PHONECALL	Service Center Partner	7	DY	POOL_ISAFR	VMFR	1	Active

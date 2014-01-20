@@ -1,0 +1,1059 @@
+﻿chCountryCode	chRegionCode	chRegionName
+AR  	AND 	Andina                        
+AR  	CNT 	Centro                        
+AR  	LTRL	Litoral                       
+AR  	NRTE	Norte                         
+AR  	PTGA	Patagonia                     
+AT  	BLND	Burgenland                    
+AT  	KARN	Karnten                       
+AT  	NIED	NiederOsterreich              
+AT  	OBER	OberOsterreich                
+AT  	OSTT	Osttirol                      
+AT  	SLZB	Salzburg                      
+AT  	STEI	Steiermark                    
+AT  	TRL 	Tirol                         
+AT  	VNNA	Vienna                        
+AT  	VRLB	Vorarlberg                    
+AU  	ACT 	Capital Territory             
+AU  	NSW 	New South Wales               
+AU  	NT  	Northern Territory            
+AU  	QLD 	Queensland                    
+AU  	SA  	South Australia               
+AU  	TAS 	Tasmania                      
+AU  	VIC 	Victoria                      
+AU  	WA  	Western Australia             
+BE  	ANTW	Antwerp                       
+BE  	BRAB	Brabant                       
+BE  	EFLN	East Flanders                 
+BE  	HNUT	Hainaut                       
+BE  	LIGE	Liege                         
+BE  	LMBR	Limburg                       
+BE  	LXMB	Luxembourg                    
+BE  	NMR 	Namur                         
+BE  	WFLN	West Flanders                 
+BG  	BRGS	Burgas                        
+BG  	KHSK	Khaskovo                      
+BG  	LVCH	Lovech                        
+BG  	MKHL	Mikhailovgrad                 
+BG  	PLOV	Plovdiv                       
+BO  	BENI	Beni                          
+BO  	CCHB	Cochabamba                    
+BO  	CHQS	Chuquisaca                    
+BO  	LPZ 	La Paz                        
+BO  	ORRO	Oruro                         
+BO  	PNDO	Pando                         
+BO  	PTOS	Potosi                        
+BO  	SCRZ	Santa Cruz                    
+BO  	TRJA	Tarija                        
+BR  	AC  	Acre                          
+BR  	AL  	Alagoas                       
+BR  	AM  	Amazonas                      
+BR  	AP  	Amapa                         
+BR  	BA  	Bahia                         
+BR  	CE  	Ceara                         
+BR  	DF  	Distrito Federal              
+BR  	ES  	Espirito Santo                
+BR  	GO  	Goias                         
+BR  	MA  	Maranhao                      
+BR  	MG  	Minas Gerais                  
+BR  	MS  	Mato Gross do Sul             
+BR  	MT  	Mato Grosso                   
+BR  	PA  	Para                          
+BR  	PB  	Paraiba                       
+BR  	PE  	Pernambuco                    
+BR  	PI  	Piaui                         
+BR  	PR  	Parana                        
+BR  	RJ  	Rio de Janeiro                
+BR  	RN  	Rio Grande do Norte           
+BR  	RO  	Rondonia                      
+BR  	RR  	Roraima                       
+BR  	RS  	Rio Grande do Sul             
+BR  	SC  	Santa Catarina                
+BR  	SE  	Sergipe                       
+BR  	SP  	Sao Paulo                     
+BR  	TO  	Tocantins                     
+CA  	AB  	Alberta                       
+CA  	BC  	British Columbia              
+CA  	MB  	Manitoba                      
+CA  	NB  	New Brunswick                 
+CA  	NF  	Newfoundland                  
+CA  	NS  	Nova Scotia                   
+CA  	NT  	Northwest Territories         
+CA  	NU  	Nunavut                       
+CA  	ON  	Ontario                       
+CA  	PE  	Prince Edward Island          
+CA  	QC  	Quebec                        
+CA  	SK  	Saskatchewan                  
+CA  	YT  	Yukon                         
+CH  	AIR 	Appenzell-Inner Rhoden        
+CH  	AOR 	Appenzell-Outer Rhoden        
+CH  	ARGU	Aargau                        
+CH  	BCOU	Basel-Land                    
+CH  	BRNE	Berne                         
+CH  	BTWN	Basel-Town                    
+CH  	FRBG	Fribourg                      
+CH  	GLAR	Glarus                        
+CH  	GNVA	Geneva                        
+CH  	GRBN	Graubunden                    
+CH  	JURS	Jura                          
+CH  	LCRN	Luzern                        
+CH  	NCHL	Neuchatel                     
+CH  	NDWL	Nidwalden                     
+CH  	OBWL	Obwalden                      
+CH  	SCHF	Schaffhausen                  
+CH  	SCHZ	Schwyz                        
+CH  	SGLN	St. Gallen                    
+CH  	SLTH	Solothurn                     
+CH  	TCNO	Ticino                        
+CH  	TRGU	Thurgau                       
+CH  	UNWL	Unterwalden                   
+CH  	URI 	Uri                           
+CH  	VAUD	Vaud                          
+CH  	VLIS	Valais                        
+CH  	ZRCH	Zurich                        
+CH  	ZUG 	Zug                           
+CL  	ANTO	Antofagasta                   
+CL  	ARAU	Araucania                     
+CL  	ATCM	Atacama                       
+CL  	AYSN	Aysen                         
+CL  	BIOB	Biobio                        
+CL  	CQMB	Coquimbo                      
+CL  	LLGS	Los Lagos                     
+CL  	METR	Metropolitan                  
+CL  	MGLL	Magallanes                    
+CL  	MLE 	Maule                         
+CL  	TRPC	Tarapaca                      
+CL  	VLPR	Valparaiso                    
+CN  	ANHI	Anhui                         
+CN  	BEIJ	Beijing                       
+CN  	FJAN	Fujian                        
+CN  	GNGD	Guangdong                     
+CN  	GNSU	Gansu                         
+CN  	GUIZ	Guizhou                       
+CN  	GZHG	Guangxi Zhuang                
+CN  	HAIN	Hainan                        
+CN  	HB  	Hubei                         
+CN  	HBEI	Hebei                         
+CN  	HGJG	Heilongjiang                  
+CN  	HNN 	Henan                         
+CN  	HUNN	Hunan                         
+CN  	IMGL	Inner Mongolia                
+CN  	JGXI	Jiangxi                       
+CN  	JNGS	Jiangsu                       
+CN  	LIN 	Jilin                         
+CN  	NING	Liaoning                      
+CN  	NNGX	Ningxia Hui                   
+CN  	NXI 	Shanxi                        
+CN  	QING	Qinghai                       
+CN  	SHND	Shandong                      
+CN  	SHNG	Shanghai                      
+CN  	SHNX	Shaanxi                       
+CN  	SICH	Sichuan                       
+CN  	TBT 	Tibet                         
+CN  	TIAN	Tianjin                       
+CN  	XNJG	Xinjiang Uighur               
+CN  	YUNN	Yunnan                        
+CN  	ZHJG	Zhejiang                      
+CO  	ANTQ	Antioquia                     
+CO  	ARUC	Arauca                        
+CO  	ATLN	Atlantico                     
+CO  	AZNS	Amazonas                      
+CO  	BLVR	Bolivar                       
+CO  	BYCA	Boyaca                        
+CO  	CCA 	Cauca                         
+CO  	CHC 	Choco                         
+CO  	CLDS	Caldas                        
+CO  	CNDM	Cundinamarca                  
+CO  	CQTA	Caqueta                       
+CO  	CRDB	Cordoba                       
+CO  	CSNA	Casanare                      
+CO  	CSR 	Cesar                         
+CO  	GUIA	Guainia                       
+CO  	GUVR	Guaviare                      
+CO  	HUIL	Huila                         
+CO  	LGJI	La Guajira                    
+CO  	META	Meta                          
+CO  	MGDL	Magdalena                     
+CO  	NRNO	Narino                        
+CO  	NRTD	Norte de Santander            
+CO  	PTYM	Putumayo                      
+CO  	QUIN	Quindio                       
+CO  	RSRL	Risaralda                     
+CO  	SAYP	San Andres y Providencia      
+CO  	SCRE	Sucre                         
+CO  	SNTD	Santander                     
+CO  	TLMA	Tolima                        
+CO  	VCHA	Vichada                       
+CO  	VDCC	Valle del Cauca               
+CO  	VPSE	Vaupes                        
+CZ  	JHCS	Jihocesky                     
+CZ  	JHMR	Jihomoravsky                  
+CZ  	PRGE	Prague                        
+CZ  	STDK	Stredocesky                   
+CZ  	SVRC	Severocesky                   
+CZ  	SVRM	Severomoravsky                
+CZ  	VCHD	Vchodocesky                   
+CZ  	ZPDC	Zapadocesky                   
+DE  	BNWG	BadenWürtemberg               
+DE  	BRDG	Brandenburg                   
+DE  	BRLN	Berlin                        
+DE  	BRMN	Bremen                        
+DE  	BVRA	Bavaria                       
+DE  	HMBG	Hamburg                       
+DE  	HSSN	Hessen                        
+DE  	LWSX	Lower Saxony                  
+DE  	MWP 	Mecklenburg-West Pomerania    
+DE  	NEID	Niedersachsen                 
+DE  	NRW 	North Rhine-Westphalia        
+DE  	RHPF	Rheinland-Pfalz               
+DE  	SAAR	Saarland                      
+DE  	SCHH	Schleswig-Holstein            
+DE  	SXAN	Saxony-Anhalt                 
+DE  	SXNY	Saxony                        
+DE  	THUR	Thuringia                     
+DK  	ARHS	Aarhus                        
+DK  	BRNH	Bornholm                      
+DK  	FYN 	Fyn                           
+DK  	KBN 	Kobenhavns                    
+DK  	NRDJ	Nordjylland                   
+DK  	RIBE	Ribe                          
+DK  	RING	Ringkobing                    
+DK  	RSK 	Roskilde                      
+DK  	SNDJ	Sonderjylland                 
+DK  	STOR	Storstrom                     
+DK  	VBRG	Viborg                        
+DK  	VJLE	Vejle                         
+DK  	VTSJ	Vetsjaelland                  
+ES  	ANDL	Andalusia                     
+ES  	ARGN	Aragon                        
+ES  	ASTR	Asturia                       
+ES  	BLRS	Baleares                      
+ES  	BSQU	Basque County                 
+ES  	CLYL	Castilla y Leon               
+ES  	CNRY	Canary Islands                
+ES  	CNTB	Cantabria                     
+ES  	CSTL	Castilla-La Mancha            
+ES  	CTLN	Catalonia                     
+ES  	CUTA	Ceuta                         
+ES  	EXTR	Extremedura                   
+ES  	GLCA	Galacia                       
+ES  	MDRD	Madrid                        
+ES  	MLLA	Melilla                       
+ES  	MRCA	Murcia                        
+ES  	NVRA	Navarra                       
+ES  	RJLA	La Rioja                      
+ES  	VLNC	Valencia                      
+FI  	AVNM	Ahvenanmaa                    
+FI  	HAME	Hame                          
+FI  	KKSM	Keski-Suomi                   
+FI  	KUOP	Kuopio                        
+FI  	KYMI	Kymi                          
+FI  	LPPI	Lappi                         
+FI  	MIKK	Mikkeli                       
+FI  	OULU	Oulu                          
+FI  	PJKJ	Pohjois-Karjala               
+FI  	TRKP	Turku-Pori                    
+FI  	USMA	Uusimaa                       
+FI  	VASA	Vaasa                         
+FR  	ALSC	Alsace                        
+FR  	AQTN	Aquitaine                     
+FR  	AVRG	Auvergne                      
+FR  	BRGN	Bourgogne                     
+FR  	BRTG	Bretagne                      
+FR  	BSNM	Basse-Normandie               
+FR  	CHGS	Champagne-Ardenne             
+FR  	CNTR	Centre                        
+FR  	CRSE	Corse                         
+FR  	FNCM	Franche-Comte                 
+FR  	HN  	Haute-Normandie               
+FR  	IDF 	Ile-de-France                 
+FR  	LMSN	Limousin                      
+FR  	LR  	Languedoc-Roussillon          
+FR  	LRRN	Lorraine                      
+FR  	MPY 	Midi-Pyrenees                 
+FR  	NPDC	Nord-Pas-de-Calais            
+FR  	PACD	Provence-Alpes-Cote-d'Azur    
+FR  	PCRD	Picardie                      
+FR  	PDLL	Pays de la Loire              
+FR  	PTCH	Poitou-Charentes              
+FR  	RNAL	Rhone-Alpes                   
+GB  	A   	Argyll (Argyllshire)          
+GB  	AAB 	Argyll and  Bute              
+GB  	AAC 	Aberconwy & Colwyn            
+GB  	ABE 	Aberdeenshire                 
+GB  	AC  	Aberdeen City                 
+GB  	ANGL	Anglesey                      
+GB  	ANGU	Angus (Forfarshire)           
+GB  	ANTR	Antrim                        
+GB  	ARMA	Armagh                        
+GB  	AVN 	Avon                          
+GB  	AYRE	Ayrshire                      
+GB  	B   	Buteshire                     
+GB  	BED 	Bedfordshire                  
+GB  	BER 	Berkshire                     
+GB  	BERW	Berwickshire                  
+GB  	BFPO	BFPO                          
+GB  	BG  	Blaenau Gwent                 
+GB  	BKN 	Brecknockshire                
+GB  	BNE 	Bath & NE Somerset            
+GB  	BNF 	Banffshire                    
+GB  	BRIS	City of Bristol               
+GB  	BUC 	Buckinghamshire               
+GB  	CAER	Caernarfonshire               
+GB  	CAEY	Caerphilly                    
+GB  	CAIT	Caithness                     
+GB  	CAMB	Cambridgeshire                
+GB  	CARM	Carmarthenshire               
+GB  	CDF 	Cardiff                       
+GB  	CERE	Ceredigion                    
+GB  	CHE 	Cheshire                      
+GB  	CI  	Channel Islands               
+GB  	CLAC	Clackmannanshire              
+GB  	CLWD	Clwyd                         
+GB  	CMB 	Cumberland                    
+GB  	CMT 	Cromartyshire                 
+GB  	CONW	Conwy                         
+GB  	COR 	Cornwall/Scilly               
+GB  	CSHI	Cardiganshire                 
+GB  	CUM 	Cumbria                       
+GB  	CW  	Cornwall                      
+GB  	DAG 	Dumfries & Galloway           
+GB  	DENB	Denbighshire                  
+GB  	DER 	Derbyshire                    
+GB  	DEV 	Devon                         
+GB  	DMB 	Dumbartonshire                
+GB  	DMF 	Dumfriesshire                 
+GB  	DOR 	Dorset                        
+GB  	DOWN	Down                          
+GB  	DUNB	Dunbartonshire                
+GB  	DUND	Dundee                        
+GB  	DUR 	Durham                        
+GB  	DYFD	Dyfed                         
+GB  	EAYR	East Ayrshire                 
+GB  	EDI 	Edinburgh                     
+GB  	EDUN	East Dunbartonshire           
+GB  	ELOT	East Lothian                  
+GB  	EREN	East Renfrewshire             
+GB  	ERY 	East Riding Yorkshire         
+GB  	ESS 	Essex                         
+GB  	ESX 	East Sussex                   
+GB  	FAL 	Falkirk                       
+GB  	FERM	Fermanagh                     
+GB  	FIFE	Fife                          
+GB  	FLIN	Flintshire                    
+GB  	GLA 	Glasgow                       
+GB  	GLM 	Glamorgan                     
+GB  	GLO 	Gloucestershire               
+GB  	GM  	Greater Manchester            
+GB  	GRLO	Greater London                
+GB  	GWE 	Gwent                         
+GB  	GWY 	Gwynedd                       
+GB  	HAM 	Hampshire                     
+GB  	HART	Hartlepool                    
+GB  	HAW 	Hereford  & Worcester         
+GB  	HER 	Hertfordshire                 
+GB  	HIGH	Highlands                     
+GB  	HRF 	Herefordshire                 
+GB  	HTD 	Huntingdonshire               
+GB  	INSH	Inverness-Shire               
+GB  	INVE	Inverclyde                    
+GB  	IOW 	Isle of Wight                 
+GB  	ISLE	Isle of Man                   
+GB  	KCB 	Kirkcudbrightshire            
+GB  	KEN 	Kent                          
+GB  	KINC	Kincardineshire               
+GB  	KIRK	Kirklees                      
+GB  	KISH	Kinross-Shire                 
+GB  	KUH 	Kingston Upon Hull            
+GB  	LAN 	Lancashire                    
+GB  	LAR 	Lanarkshire                   
+GB  	LEI 	Leicestershire                
+GB  	LINC	Lincolnshire                  
+GB  	LON 	London                        
+GB  	LOND	Londonderry                   
+GB  	MDX 	Middlesex                     
+GB  	MER 	Merseyside                    
+GB  	MERT	Merthyr Tydfil                
+GB  	MGL 	Mid  Glamorgan                
+GB  	MLO 	Midlothian                    
+GB  	MON 	Monmouthshire                 
+GB  	MORA	Moray (Morayshire)            
+GB  	MRN 	Merionethshire                
+GB  	MTG 	Montgomeryshire               
+GB  	N   	Nairnshire                    
+GB  	NAPT	Neath &  Port Talbot          
+GB  	NAYR	North Ayrshire                
+GB  	NBL 	Northumberland                
+GB  	NEL 	North East Lincolnshire       
+GB  	NEWP	Newport                       
+GB  	NLAN	North Lanarkshire             
+GB  	NLIN	North Lincolnshire            
+GB  	NMP 	Northamptonshire              
+GB  	NOR 	Norfolk                       
+GB  	NOT 	Nottinghamshire               
+GB  	NSOM	North Somerset                
+GB  	NYO 	North Yorkshire               
+GB  	ORKN	Orkney                        
+GB  	OXO 	Oxfordshire                   
+GB  	PAK 	Perth and Kinross             
+GB  	PBL 	Peeblesshire                  
+GB  	PEMB	Pembrokeshire                 
+GB  	POW 	Powys                         
+GB  	PRT 	Perthshire                    
+GB  	RAC 	Redcar & Cleveland            
+GB  	RCT 	Rhonda Cynon Taff             
+GB  	RDN 	Radnorshire                   
+GB  	RENF	Renfrewshire                  
+GB  	ROSS	Ross-shire                    
+GB  	RUTL	Rutland                       
+GB  	RXB 	Roxburghshire                 
+GB  	S   	Sutherland                    
+GB  	SAYR	South Ayrshire                
+GB  	SCBO	Scottish Borders              
+GB  	SGLO	South Gloucesteshire          
+GB  	SGM 	South  Glamorgan              
+GB  	SHET	Shetland                      
+GB  	SHR 	Shropshire                    
+GB  	SKRK	Selkirkshire                  
+GB  	SLAN	South Lanarkshire             
+GB  	SOM 	Somerset                      
+GB  	SOT 	Stockton On Tees              
+GB  	STA 	Staffordshire                 
+GB  	STIR	Stirling (Stirlingshire)      
+GB  	SUF 	Suffolk                       
+GB  	SUR 	Surrey                        
+GB  	SWAN	Swansea                       
+GB  	SX  	Sussex                        
+GB  	SYO 	South Yorkshire               
+GB  	TORF	Torfaen                       
+GB  	TYN 	Tyne and Wear                 
+GB  	TYRO	Tyrone                        
+GB  	VOG 	Vale Of  Glamorgan            
+GB  	WDUN	West Dunbartonshire           
+GB  	WGL 	West Glamorgan                
+GB  	WIG 	Wigtownshire                  
+GB  	WIL 	Wiltshire                     
+GB  	WIRR	Wirral                        
+GB  	WISL	Western Isles                 
+GB  	WLOT	West Lothian                  
+GB  	WMD 	West Midlands                 
+GB  	WML 	Westmorland                   
+GB  	WOR 	Worcestershire                
+GB  	WREX	Wrexham                       
+GB  	WRW 	Warwickshire                  
+GB  	WSX 	West Sussex                   
+GB  	WYO 	West Yorkshire                
+GB  	YOR 	York (Yorkshire)              
+GR  	AGNN	Aegan North                   
+GR  	AGNS	Aegan South                   
+GR  	CRTE	Crete                         
+GR  	EPRS	Epirus                        
+GR  	GRCC	Greece Central                
+GR  	GRCW	Greece West                   
+GR  	IONI	Ionian Islands                
+GR  	MCDC	Macedonia Central             
+GR  	MCDE	Macedonia East                
+GR  	MCDW	Macedonia West                
+GR  	PLPN	Peloponnese                   
+GR  	THSS	Thessaly                      
+HU  	BAZ 	Borsod-Abauj-Zemplen          
+HU  	BCSK	Bacs-Kiskun                   
+HU  	BDPS	Budapest                      
+HU  	BKES	Bekes                         
+HU  	BRNY	Baranya                       
+HU  	CSNG	Csongrad                      
+HU  	FJR 	Fejer                         
+HU  	GMS 	Gyor-Moson-Sopron             
+HU  	HJDB	Hajdu-Bihar                   
+HU  	HVS 	Heves                         
+HU  	JNS 	Jasz-Nagkyun-Szolnok          
+HU  	KE  	Komarom-Esztergom             
+HU  	NGR 	Nograd                        
+HU  	PSI 	Pest                          
+HU  	SMGY	Somogy                        
+HU  	SSB 	Szabolcs-Szatmar-Bereg        
+HU  	TLNA	Tolna                         
+HU  	VAS 	Vas                           
+HU  	VSZP	Veszprem                      
+HU  	ZALA	Zala                          
+IE  	CLR 	Clare                         
+IE  	CLW 	Carlow                        
+IE  	CRK 	Cork                          
+IE  	CVN 	Cavan                         
+IE  	DNGL	Donegal                       
+IE  	DUB 	Dublin                        
+IE  	FFL 	Offaly                        
+IE  	KLD 	Kildare                       
+IE  	KLK 	Kilkenny                      
+IE  	KRR 	Kerry                         
+IE  	LEIT	Leitrim                       
+IE  	LMCK	Limerick                      
+IE  	LNG 	Longford                      
+IE  	LOI 	Laois                         
+IE  	LTH 	Louth                         
+IE  	MAYO	Mayo                          
+IE  	MNGN	Monaghan                      
+IE  	MTH 	Meath                         
+IE  	RSCM	Roscommon                     
+IE  	SLG 	Sligo                         
+IE  	TIPN	Tipperary NR                  
+IE  	TIPS	Tipperary SR                  
+IE  	WCKW	Wicklow                       
+IE  	WSTM	Westmeath                     
+IE  	WTRF	Waterford                     
+IE  	WXF 	Wexford                       
+IL  	CTRL	Central                       
+IL  	HF  	Haifa                         
+IL  	JSL 	Jerusalem                     
+IL  	NTHN	Northern                      
+IL  	SOU 	Southern                      
+IL  	TA  	Tel Aviv                      
+IN  	AANI	Andaman and Nicobar Islands   
+IN  	APSH	Andhra Pradesh                
+IN  	ARSH	Arunachal Pradesh             
+IN  	ASSM	Assam                         
+IN  	BHR 	Bihar                         
+IN  	CHND	Chandigarh                    
+IN  	DADU	Daman and Diu                 
+IN  	DANH	Dadra and Nagar Haveli        
+IN  	DLHI	Delhi                         
+IN  	GJT 	Gujarat                       
+IN  	GOA 	Goa                           
+IN  	HCHP	Himachal Pradesh              
+IN  	HRYN	Haryana                       
+IN  	JMMU	Jammu                         
+IN  	KASH	Kashmir                       
+IN  	KRLA	Kerala                        
+IN  	KRNT	Karnataka                     
+IN  	LAKS	Lakshadweep                   
+IN  	MDPR	Madhya Pradesh                
+IN  	MGHL	Meghalaya                     
+IN  	MHRS	Maharashtra                   
+IN  	MSPR	Manipur                       
+IN  	MZRM	Mizoram                       
+IN  	NAGA	Nagaland                      
+IN  	ORSA	Orissa                        
+IN  	PJST	Rajasthan                     
+IN  	PNDC	Pondicherry                   
+IN  	PNJB	Punjab                        
+IN  	SKKM	Sikkim                        
+IN  	TNDU	Tamil Nadu                    
+IN  	TRIP	Tripura                       
+IN  	ULPR	Uttar Pradesh                 
+IN  	WBNG	West Bengal                   
+IT  	ABRZ	Abruzzi                       
+IT  	BSLC	Basilicata                    
+IT  	CLBR	Calabria                      
+IT  	CMPN	Campania                      
+IT  	EMRM	Emilia Romagna                
+IT  	FVC 	Friuli-Venezia Giulia         
+IT  	LAZO	Lazio                         
+IT  	LGRA	Liguria                       
+IT  	LMBD	Lombardia                     
+IT  	MLSE	Molise                        
+IT  	MRCH	Marche                        
+IT  	PGLA	Puglia                        
+IT  	PIEM	Piemonte                      
+IT  	SCLA	Sicilia                       
+IT  	SRDG	Sardegna                      
+IT  	TAAE	Trentino-Alto Adige           
+IT  	TSCA	Toscana                       
+IT  	UMBA	Umbria                        
+IT  	VDA 	Valle d'Aosta                 
+IT  	VNTO	Veneto                        
+JP  	AIC 	愛知県                           
+JP  	AKI 	秋田県                           
+JP  	AOM 	青森県                           
+JP  	CHIB	千葉県                           
+JP  	EHIM	愛媛県                           
+JP  	FUKA	福井県                           
+JP  	FUKS	福島県                           
+JP  	FUKU	福岡県                           
+JP  	GIFU	岐阜県                           
+JP  	GUN 	群馬県                           
+JP  	HIRO	広島県                           
+JP  	HOKK	北海道                           
+JP  	HYO 	兵庫県                           
+JP  	IBAR	茨城県                           
+JP  	ISHI	石川県                           
+JP  	IWA 	岩手県                           
+JP  	KAGA	香川県                           
+JP  	KAGO	鹿児島県                          
+JP  	KANA	神奈川県                          
+JP  	KOCH	高知県                           
+JP  	KUMA	熊本県                           
+JP  	KYO 	京都府                           
+JP  	MIE 	三重県                           
+JP  	MIYA	宮城県                           
+JP  	MIYI	宮崎県                           
+JP  	NAGA	長野県                           
+JP  	NAGI	長崎県                           
+JP  	NARA	奈良県                           
+JP  	NII 	新潟県                           
+JP  	OITA	大分県                           
+JP  	OKA 	岡山県                           
+JP  	OKI 	沖縄県                           
+JP  	OSA 	大阪府                           
+JP  	SAGA	佐賀県                           
+JP  	SAI 	埼玉県                           
+JP  	SHIG	滋賀県                           
+JP  	SHIM	島根県                           
+JP  	SHIZ	静岡県                           
+JP  	TOCH	栃木県                           
+JP  	TOKU	徳島県                           
+JP  	TOKY	東京都                           
+JP  	TOTT	鳥取県                           
+JP  	TOYA	富山県                           
+JP  	WAKA	和歌山県                          
+JP  	YAG 	山口県                           
+JP  	YAMA	山形県                           
+JP  	YAN 	山梨県                           
+KR  	CHAM	Ch'ungch'ongnam-do            
+KR  	CHEJ	Cheju-do                      
+KR  	CHOL	Chollabuk-do                  
+KR  	CHOM	Chollanam-do                  
+KR  	CHUK	Ch'ungchongbuk-do             
+KR  	INCH	Inchon                        
+KR  	KANG	Kangwon-do                    
+KR  	KONG	Kyongsangnam-do               
+KR  	KWAN	Kwangju                       
+KR  	KYON	Kyonggi-do                    
+KR  	KYOU	Kyougsangbuk-do               
+KR  	PUSA	Pusan                         
+KR  	SEOU	Seoul                         
+KR  	TAEG	Taegu                         
+KR  	TAEJ	Taejon                        
+MX  	AGS 	Aguascalientes                
+MX  	BC  	Baja California               
+MX  	BCS 	Baja California Sur           
+MX  	CAM 	Campeche                      
+MX  	CHIH	Chihuahua                     
+MX  	CHIS	Chiapas                       
+MX  	COAH	Coahuila                      
+MX  	COL 	Colima                        
+MX  	DF  	Distrito Federal              
+MX  	DGO 	Durango                       
+MX  	GRO 	Guerrero                      
+MX  	GTO 	Guanajuato                    
+MX  	HGO 	Hidalgo                       
+MX  	JAL 	Jalisco                       
+MX  	MEX 	Mexico                        
+MX  	MICH	Michoacan                     
+MX  	MOR 	Morelos                       
+MX  	NAY 	Nayarit                       
+MX  	NL  	Nuevo Leon                    
+MX  	OAX 	Oaxaco                        
+MX  	PUE 	Puebla                        
+MX  	QR  	Quintana Roo                  
+MX  	QRO 	Queretaro                     
+MX  	SIN 	Sinaloa                       
+MX  	SLP 	San Luis Potosi               
+MX  	SON 	Sonora                        
+MX  	TAB 	Tabasco                       
+MX  	TAMS	Tamaulipas                    
+MX  	TLAX	Tlaxcala                      
+MX  	VER 	Veracruz                      
+MX  	YUC 	Yucatan                       
+MX  	ZAC 	Zacatecas                     
+MY  	JOHO	Johor                         
+MY  	KEDA	Kedah                         
+MY  	KELA	Kelantan                      
+MY  	LABU	Labuan                        
+MY  	MELA	Melaka                        
+MY  	NEGE	Negeri Sembilan               
+MY  	PAHA	Pahang                        
+MY  	PERA	Perak                         
+MY  	PERL	Perlis                        
+MY  	PULA	Pulau Pinang                  
+MY  	SABA	Sabah                         
+MY  	SARA	Sarawak                       
+MY  	SELA	Selangor                      
+MY  	TERE	Terengganu                    
+NL  	DRNT	Drenthe                       
+NL  	FLEV	Flevoland                     
+NL  	FRIE	Friesland                     
+NL  	GELD	Gelderland                    
+NL  	GRON	Groningen                     
+NL  	LIMB	Limburg                       
+NL  	NRDB	Noord-Brabant                 
+NL  	NRDH	Noord-Holland                 
+NL  	OVJS	Overijssel                    
+NL  	UTRC	Utrecht                       
+NL  	ZDHD	Zuid-Holland                  
+NL  	ZEEL	Zeeland                       
+NO  	AAGD	Aust-Agder                    
+NO  	AKSS	Akershus                      
+NO  	BSKR	Buskerud                      
+NO  	FNMK	Finnmark                      
+NO  	HDLN	Hordaland                     
+NO  	HDMK	Hedmark                       
+NO  	MOR 	More og Romsdal               
+NO  	NRDL	Nordland                      
+NO  	NRDT	Nord-Trondelag                
+NO  	OSLO	Oslo                          
+NO  	OSTF	Ostfold                       
+NO  	RGLN	Rogaland                      
+NO  	SOF 	Sogn og Fjordane              
+NO  	SORT	Sor-Trondelag                 
+NO  	TLMK	Telemark                      
+NO  	TRMS	Troms                         
+NO  	VAGD	Vest-Agder                    
+NO  	VEST	Vestfold                      
+NZ  	AUCK	Auckland                      
+NZ  	BAY 	Bay of Plenty                 
+NZ  	CANT	Canterbury                    
+NZ  	CORL	Coromandel                    
+NZ  	DUNE	Dunedin - Coastal Otago       
+NZ  	HAWK	Hawkes Bay - Manawatu         
+NZ  	NELS	Nelson - Marlborough          
+NZ  	NMP 	Northland                     
+NZ  	QUE 	Queenstown                    
+NZ  	ROTO	Rotorua                       
+NZ  	SLND	Southland                     
+NZ  	TAUP	Taupo - Taranaki              
+NZ  	WAIK	Waikato - King Country        
+NZ  	WC  	West Coast                    
+NZ  	WELL	Wellington                    
+PE  	AMZO	Amazonas                      
+PE  	APRM	Apurimac                      
+PE  	ARQU	Arequipa                      
+PE  	AYCO	Ayacucho                      
+PE  	CASH	Ancash                        
+PE  	CJMR	Cajamarca                     
+PE  	CLLA	Callao                        
+PE  	CZCO	Cuzco                         
+PE  	HNCO	Huanuco                       
+PE  	HUAN	Huancavelica                  
+PE  	ICA 	Ica                           
+PE  	JNN 	Junin                         
+PE  	LBT 	La Libertad                   
+PE  	LBYQ	Lambayeque                    
+PE  	LIMA	Lima                          
+PE  	LRTO	Loreto                        
+PE  	MDD 	Madre de Dios                 
+PE  	MQUG	Moquegua                      
+PE  	PSCO	Pasco                         
+PE  	PUNO	Puno                          
+PE  	PURA	Piura                         
+PE  	SMRT	San Martin                    
+PE  	TCNA	Tacna                         
+PE  	TMBS	Tumbes                        
+PL  	BIAL	Bialystok                     
+PL  	BIPD	Biala Podlaska                
+PL  	BSKB	Bielsko-Biala                 
+PL  	BYSZ	Bydgoszcz                     
+PL  	CCHN	Ciechanow                     
+PL  	CHLM	Chelm                         
+PL  	CZST	Czestochowa                   
+PL  	ELBG	Elblag                        
+PL  	GDSK	Gdansk                        
+PL  	GRZW	Gorzow                        
+PL  	JLNG	Jelenia Gora                  
+PL  	KLCE	Kielce                        
+PL  	KLSZ	Kalisz                        
+PL  	KNN 	Konin                         
+PL  	KRKW	Krakow                        
+PL  	KRSN	Krosno                        
+PL  	KSZL	Koszalin                      
+PL  	KTWC	Katowice                      
+PL  	LGNC	Legnica                       
+PL  	LMZA	Lomza                         
+PL  	LODZ	Lodz                          
+PL  	LSZN	Leszno                        
+PL  	MBLN	Lublin                        
+PL  	NWCZ	Nowy Sacz                     
+PL  	OLSZ	Olsztyn                       
+PL  	OPLE	Opole                         
+PL  	OSTR	Ostroteka                     
+PL  	PILA	Pila                          
+PL  	PLCK	Plock                         
+PL  	PRZM	Przemysl                      
+PL  	PTRK	Piotrkow                      
+PL  	PZNN	Poznan                        
+PL  	RDM 	Radom                         
+PL  	RZSZ	Rzeszow                       
+PL  	SDCE	Siedice                       
+PL  	SKNW	Skierniewice                  
+PL  	SLSK	Slupsk                        
+PL  	SRDZ	Sieradz                       
+PL  	SWKI	Suwalki                       
+PL  	SZZC	Szczecin                      
+PL  	TNBR	Tarnobrzeg                    
+PL  	TRN 	Torun                         
+PL  	TRNW	Tarnow                        
+PL  	WLBZ	Walbrzych                     
+PL  	WLCL	Wloclawek                     
+PL  	WRCL	Wroclaw                       
+PL  	WRSW	Warsaw                        
+PL  	ZLNG	Zielona Gora                  
+PL  	ZMSC	Zamosc                        
+PT  	AVRO	Aveiro                        
+PT  	BGNC	Braganca                      
+PT  	BJA 	Beja                          
+PT  	BRGA	Braga                         
+PT  	CMBR	Coimbra                       
+PT  	CSLO	Castelo Branco                
+PT  	EVRA	Evora                         
+PT  	FRO 	Faro                          
+PT  	GRDA	Guarda                        
+PT  	LIRA	Leiria                        
+PT  	LSBO	Lisboa                        
+PT  	PRLG	Portalegre                    
+PT  	PRTO	Porto                         
+PT  	SNTR	Santarem                      
+PT  	STBL	Setubal                       
+PT  	VDC 	Viana de Castelo              
+PT  	VRAL	Vila Real                     
+PT  	VSEU	Viseu                         
+PY  	APRN	Alto Parana                   
+PY  	ASNC	Asuncion                      
+PY  	CAAG	Caaguazu                      
+PY  	CAZP	Caazapa                       
+PY  	CENL	Central                       
+PY  	CNCP	Concepcion                    
+PY  	CRDL	Cordillera                    
+PY  	GUAR	Guaira                        
+PY  	ITAP	Itapua                        
+PY  	PRGU	Paraguari                     
+PY  	SPDR	San Pedro                     
+RO  	ALBA	Alba                          
+RO  	ARAD	Arad                          
+RO  	ARGS	Arges                         
+RO  	BCAU	Bacau                         
+RO  	BCHS	Bucharest                     
+RO  	BHOR	Bihor                         
+RO  	BRLA	Braila                        
+RO  	BRSV	Brasov                        
+RO  	BSNS	Bistrita-Nasaud               
+RO  	BTSN	Botosani                      
+RO  	BZAU	Buzau                         
+RO  	CALR	Calarasi                      
+RO  	CLUJ	Cluj                          
+RO  	CNST	Costanza                      
+RO  	CSSV	Caras-Severin                 
+RO  	CVSN	Covasna                       
+RO  	DIMB	Dimbovita                     
+RO  	DOLJ	Dolj                          
+RO  	GGIU	Giurgiu                       
+RO  	GLTI	Galati                        
+RO  	GORJ	Gorj                          
+RO  	HGHT	Harghita                      
+RO  	HNDR	Hunedoara                     
+RO  	IASI	Iasi                          
+RO  	ILMT	Ialomita                      
+RO  	MHDN	Mehedinti                     
+RO  	MRES	Mures                         
+RO  	MRMR	Maramures                     
+RO  	NEMT	Neamt                         
+RO  	OLT 	Olt                           
+RO  	PRHV	Prahova                       
+RO  	SBUI	Sibiu                         
+RO  	SCVA	Suceava                       
+RO  	SLJ 	Salaj                         
+RO  	STMR	Satu Mare                     
+RO  	TLCA	Tulcea                        
+RO  	TLRM	Teleorman                     
+RO  	TMS 	Timis                         
+RO  	VLCA	Vilcea                        
+RO  	VRNC	Vrancea                       
+RO  	VSLU	Vaslui                        
+SE  	ALV 	Alvsborg                      
+SE  	BLKG	Blekinge                      
+SE  	GAB 	Goteborg and Bohus            
+SE  	GTLN	Gotland                       
+SE  	GVLB	Gavleborg                     
+SE  	HLLD	Halland                       
+SE  	JAMT	Jamtland                      
+SE  	JONK	Jonkoping                     
+SE  	KLMR	Kalmar                        
+SE  	KRNG	Kronoberg                     
+SE  	KRNS	Kristianstad                  
+SE  	MALM	Malmohus                      
+SE  	NRBT	Norrbotten                    
+SE  	ORBR	Orebro                        
+SE  	OSTG	Ostergotland                  
+SE  	SDRM	Sodermanland                  
+SE  	SKRG	Skaraborg                     
+SE  	STKH	Stockholm                     
+SE  	UPPS	Uppsala                       
+SE  	VARM	Varmland                      
+SE  	VAST	Vastmanland                   
+SE  	VSTB	Vasterbotten                  
+SE  	VSTM	Vasternorrland                
+SK  	BRAT	Bratislava                    
+SK  	STRD	Stredoslovensky               
+SK  	VYCH	Vychodoslovensky              
+SK  	ZPDO	Zapadoslovensky               
+TR  	ADNA	Adana                         
+TR  	AFYK	Afyonkarahisar                
+TR  	AGRI	Agri                          
+TR  	AKSY	Aksaray                       
+TR  	AMSY	Amasya                        
+TR  	AMTL	Antalya                       
+TR  	ANKR	Ankara                        
+TR  	ARTV	Artvin                        
+TR  	AVYM	Adiyaman                      
+TR  	AYDN	Aydin                         
+TR  	BLCK	Bilecik                       
+TR  	BLKS	Balikesir                     
+TR  	BNGL	Bingol                        
+TR  	BOLU	Bolu                          
+TR  	BRDR	Burdur                        
+TR  	BRSA	Bursa                         
+TR  	BTLS	Bitlis                        
+TR  	BTMN	Batman                        
+TR  	BYBR	Bayburt                       
+TR  	CNKK	Canakkale                     
+TR  	CNKR	Cankiri                       
+TR  	CRM 	Corum                         
+TR  	DIYA	Diyarbakir                    
+TR  	DNZ 	Denizli                       
+TR  	EDRN	Edirne                        
+TR  	ELZG	Elazig                        
+TR  	ERZN	Erzincan                      
+TR  	ERZR	Erzurum                       
+TR  	ESKI	Eskisehir                     
+TR  	GAZI	Gaziantep                     
+TR  	GMUS	Gumushane                     
+TR  	GRSN	Giresun                       
+TR  	HAKK	Hakkari                       
+TR  	HTY 	Hatay                         
+TR  	ICEL	Icel                          
+TR  	ISPR	Isparta                       
+TR  	ISTN	Istanbul                      
+TR  	IZMR	Izmir                         
+TR  	KARS	Kars                          
+TR  	KCLI	Kocaeli                       
+TR  	KMRS	K. Maras                      
+TR  	KNYA	Konya                         
+TR  	KRKK	Kirikkale                     
+TR  	KRKL	Kirklareli                    
+TR  	KRMN	Karaman                       
+TR  	KRSH	Kirsehir                      
+TR  	KSTM	Kastamonu                     
+TR  	KTYA	Kutahya                       
+TR  	KYSR	Kayseri                       
+TR  	MARD	Mardin                        
+TR  	MGLA	Mugla                         
+TR  	MNSA	Manisa                        
+TR  	MTYA	Malatya                       
+TR  	MUS 	Mus                           
+TR  	NEVS	Nevsehir                      
+TR  	NGDE	Nigde                         
+TR  	ORDU	Ordu                          
+TR  	RIZE	Rize                          
+TR  	SIRT	Siirt                         
+TR  	SKRY	Sakarya                       
+TR  	SMSN	Samsun                        
+TR  	SNP 	Sinop                         
+TR  	SRNK	Sirnak                        
+TR  	SVS 	Sivas                         
+TR  	TKRD	Tekirdag                      
+TR  	TKT 	Tokat                         
+TR  	TNCL	Tunceli                       
+TR  	TRBZ	Trabzon                       
+TR  	URFA	Urfa                          
+TR  	USAK	Usak                          
+TR  	VAN 	Van                           
+TR  	YZGT	Yozgat                        
+TR  	ZNGL	Zonguldak                     
+US  	AA  	APO - AA                      
+US  	AE  	APO - AE                      
+US  	AK  	Alaska                        
+US  	AL  	Alabama                       
+US  	AP  	APO - AP                      
+US  	AR  	Arkansas                      
+US  	AS  	Am. Samoa                     
+US  	AZ  	Arizona                       
+US  	CA  	California                    
+US  	CO  	Colorado                      
+US  	CT  	Connecticut                   
+US  	DC  	Dist. of Columbia             
+US  	DE  	Delaware                      
+US  	FAP 	FPO - AP                      
+US  	FL  	Florida                       
+US  	GA  	Georgia                       
+US  	GU  	Guam                          
+US  	HI  	Hawaii                        
+US  	IA  	Iowa                          
+US  	ID  	Idaho                         
+US  	IL  	Illinois                      
+US  	IN  	Indiana                       
+US  	KS  	Kansas                        
+US  	KY  	Kentucky                      
+US  	LA  	Louisiana                     
+US  	MA  	Massachusetts                 
+US  	MD  	Maryland                      
+US  	ME  	Maine                         
+US  	MI  	Michigan                      
+US  	MN  	Minnesota                     
+US  	MO  	Missouri                      
+US  	MS  	Mississippi                   
+US  	MT  	Montana                       
+US  	NC  	North Carolina                
+US  	ND  	North Dakota                  
+US  	NE  	Nebraska                      
+US  	NH  	New Hampshire                 
+US  	NJ  	New Jersey                    
+US  	NM  	New Mexico                    
+US  	NV  	Nevada                        
+US  	NY  	New York                      
+US  	OH  	Ohio                          
+US  	OK  	Oklahoma                      
+US  	OR  	Oregon                        
+US  	PA  	Pennsylvania                  
+US  	PR  	Puerto Rico                   
+US  	RI  	Rhode Island                  
+US  	SC  	South Carolina                
+US  	SD  	South Dakota                  
+US  	TN  	Tennessee                     
+US  	TX  	Texas                         
+US  	UT  	Utah                          
+US  	VA  	Virginia                      
+US  	VI  	Virgin Islands                
+US  	VT  	Vermont                       
+US  	WA  	Washington                    
+US  	WI  	Wisconsin                     
+US  	WV  	West Virginia                 
+US  	WY  	Wyoming                       
+UY  	ARTG	Artigas                       
+UY  	CLNA	Colonia                       
+UY  	CNLN	Canelones                     
+UY  	CRLG	Cerro-Largo                   
+UY  	DRZN	Durazno                       
+UY  	FLRD	Florida                       
+UY  	FLRS	Flores                        
+UY  	LVLJ	Lavalleja                     
+UY  	MLDN	Maldonado                     
+UY  	MNTV	Montevideo                    
+UY  	PAYS	Paysandu                      
+UY  	RCHA	Rocha                         
+UY  	RNGR	Rio Negro                     
+UY  	RVRA	Rivera                        
+UY  	SJSE	San Jose                      
+UY  	SLTO	Salto                         
+UY  	SRNO	Soriano                       
+UY  	TCRM	Tacuarembo                    
+UY  	TYT 	Treinta y Tres                
+VE  	AGAA	Aragua                        
+VE  	ANZO	Anzoategui                    
+VE  	APRE	Apure                         
+VE  	BOLI	Bolivar                       
+VE  	BRNS	Barinas                       
+VE  	CBBO	Carabobo                      
+VE  	FDSC	Federal District              
+VE  	FLCN	Falcon                        
+VE  	GRCO	Guarico                       
+VE  	LRA 	Lara                          
+VE  	MNGS	Monagas                       
+VE  	MRD 	Merida                        
+VE  	MRND	Miranda                       
+VE  	NESP	Nueva Esparta                 
+VE  	PRTG	Portuguesa                    
+VE  	SU  	Sucre                         
+VE  	TAZN	Ter. Amazonas                 
+VE  	TCH 	Tachira                       
+VE  	TDA 	Ter. Delta Amacuro            
+VE  	TRUJ	Trujillo                      
+VE  	YCY 	Yaracuy                       
+VE  	ZLIA	Zulia                         
