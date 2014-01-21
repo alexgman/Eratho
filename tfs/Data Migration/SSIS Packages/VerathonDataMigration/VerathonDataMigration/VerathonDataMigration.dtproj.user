@@ -6,7 +6,7 @@
       <Options>
         <UserIDs />
         <UserPasswords />
-        <OfflineMode>true</OfflineMode>
+        <OfflineMode>false</OfflineMode>
         <ProgressReporting>true</ProgressReporting>
       </Options>
     </Configuration>
