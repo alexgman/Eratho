@@ -10,8 +10,8 @@
 <DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
 <DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
 <DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
-<DTS:Property DTS:Name="VersionBuild">13</DTS:Property>
-<DTS:Property DTS:Name="VersionGUID">{68C2B132-DF3F-47AA-A71E-037EEB44C288}</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">14</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{E32F7B0E-A507-4475-BE12-F31D5797F81B}</DTS:Property>
 <DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
 <DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
 <DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
@@ -23,14 +23,14 @@
 <DTS:Property DTS:Name="DTSID">{c02ba196-c906-4ad8-bb14-2e421a10bb84}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
-<DTS:Property DTS:Name="Retain">0</DTS:Property><DTS:Password DTS:Name="Password" Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAol3LHmShu/oupuTnNZRRrAAAAAASAAACgAAAAEAAAAPfwj6r7QUSelf60gKmxu+YQAAAAZvkFUEQeO5nfkuEvEmjJPRQAAABNdiQxjZMN5gnknePHgvjNY6JVuQ</DTS:Password>
+<DTS:Property DTS:Name="Retain">0</DTS:Property><DTS:Password DTS:Name="Password" Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADz+DwSKuQOC54ZikozPkd7AAAAAASAAACgAAAAEAAAAMj8wi6I5wDgVkw7mrBjBn0QAAAAjTzJRUQ3a+mgCWRQ68c6mRQAAABsq+xOOOmvBlwwWojIlv513oKTBQ</DTS:Password>
 <DTS:Property DTS:Name="ConnectionString">Data Source=BOCP-d-db04;User ID=alexg;Initial Catalog=CRM_Staging;Provider=SQLNCLI10.1;Persist Security Info=True;Application Name=SSIS-Package-{6147074E-DFBC-4B86-88A3-18579B28E5B3}BOCP-d-db04.CRM_Staging.alexg;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Dynamics CRM Connection Manager</DTS:Property>
 <DTS:Property DTS:Name="DTSID">{571e2bdc-405b-4a4c-a87d-5f93693a640e}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName">DynamicsCRM</DTS:Property><DTS:ObjectData><CrmConnectionManager ConnectionString="AuthenticationType=ActiveDirectory;ServiceEndpoint=Soap2011;DiscoveryServerUrl=http://bocp-t-crm0;UserName=alexg;Domain=dxu;OrganizationName=DM1;CrmServerUrl=http://bocp-t-crm0.dxu.com/DM1;ProxyUsername=;ProxyServer=;ProxyServerPort=0;SdkClientVersion=;HomeRealmUri=;ServiceTimeout=120"><Password Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAANbAgZFlqhK0JOfAm/w1PZAAAAAASAAACgAAAAEAAAADpyKqQJR55fhRBNVydqv0oYAAAAMu1RNhApqTxMDRio7r4OowmDfAHTs+TlFAAAACtkMTp/tOFigr5p4AHA1R4pWt09</Password></CrmConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:Property DTS:Name="CreationName">DynamicsCRM</DTS:Property><DTS:ObjectData><CrmConnectionManager ConnectionString="AuthenticationType=ActiveDirectory;ServiceEndpoint=Soap2011;DiscoveryServerUrl=http://bocp-t-crm0;UserName=alexg;Domain=dxu;OrganizationName=DM1;CrmServerUrl=http://bocp-t-crm0.dxu.com/DM1;ProxyUsername=;ProxyServer=;ProxyServerPort=0;SdkClientVersion=;HomeRealmUri=;ServiceTimeout=120"><Password Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADgvgyilNO7DTYsQLczs1bcAAAAAASAAACgAAAAEAAAABvA5FE5GRVhIC4Dm8Dx5rwYAAAAIgG3yK9Uye2vlJ2IHTjADXZDZ/rsXfDRFAAAABuTtMIVDsvUmX8urjX0elKVCjiO</Password></CrmConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Flat File Connection Manager</DTS:Property>
@@ -388,7 +388,7 @@
 <property id="26" name="IgnoreUnchangedFields" dataType="System.Boolean" state="default" isArray="false" description="Specifies whether to ignore those fields that have no value changes in the target system. " typeConverter="" UITypeEditor="" containsID="false" expressionType="Notify">true</property>
 <property id="27" name="HandlingOfMultipleMatches" dataType="System.Int32" state="default" isArray="false" description="Specify what action will be taken when multiple matches are found with Upsert action." typeConverter="`1[[KingswaySoft.IntegrationToolkit.DynamicsCrm.CrmUpsertHandlingOfMultipleMatches, KingswaySoft.IntegrationToolkit.DynamicsCrm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=705df8e0751bcea7]], KingswaySoft.IntegrationToolkit.DynamicsCrm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=705df8e0751bcea7" UITypeEditor="" containsID="false" expressionType="Notify">0</property>
 <property id="28" name="Workflow" dataType="System.String" state="default" isArray="false" description="Workflow to be executed." typeConverter="" UITypeEditor="" containsID="false" expressionType="Notify"></property>
-<property id="29" name="BatchSize" dataType="System.Int32" state="default" isArray="false" description="Specifies the number of records to be sent to Microsoft Dynamics CRM in batch (CRM 2011 Update Rollup 12 or later is required if batch size is greater than 1)." typeConverter="" UITypeEditor="" containsID="false" expressionType="Notify">1</property>
+<property id="29" name="BatchSize" dataType="System.Int32" state="default" isArray="false" description="Specifies the number of records to be sent to Microsoft Dynamics CRM in batch (CRM 2011 Update Rollup 12 or later is required if batch size is greater than 1)." typeConverter="" UITypeEditor="" containsID="false" expressionType="Notify">10</property>
 <property id="30" name="SendDateTimeInUtcFormat" dataType="System.Boolean" state="default" isArray="false" description="Specifies whether datetime values should be sent to CRM server in UTC format." typeConverter="" UITypeEditor="" containsID="false" expressionType="Notify">false</property>
 <property id="37" name="UserComponentTypeName" dataType="System.String" state="default" isArray="false" description="" typeConverter="" UITypeEditor="" containsID="false" expressionType="None">KingswaySoft.IntegrationToolkit.DynamicsCrm.CrmDestinationComponent, KingswaySoft.IntegrationToolkit.DynamicsCrm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=705df8e0751bcea7</property></properties>
 <connections>
@@ -1118,7 +1118,7 @@
 <property id="1480" name="CommandTimeout" dataType="System.Int32" state="default" isArray="false" description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">0</property>
 <property id="1481" name="OpenRowset" dataType="System.String" state="default" isArray="false" description="Specifies the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">[dbo].[Company]</property>
 <property id="1482" name="OpenRowsetVariable" dataType="System.String" state="default" isArray="false" description="Specifies the variable that contains the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
-<property id="1483" name="SqlCommand" dataType="System.String" state="default" isArray="false" description="The SQL command to be executed." typeConverter="" UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" containsID="false" expressionType="None">select top 20
+<property id="1483" name="SqlCommand" dataType="System.String" state="default" isArray="false" description="The SQL command to be executed." typeConverter="" UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" containsID="false" expressionType="None">select 
 
 t.teamid
 ,c.AccountID
@@ -1403,7 +1403,7 @@ where users.domainname is not null</property>
 <DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;TaskHost xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsDataFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;-16404&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;-873&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="29" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-17404" scrolltop="-4000" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="41249" y="19341" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="0" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-17404" scrolltop="-4000" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="41249" y="19341" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="0" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -1515,21 +1515,21 @@ where users.domainname is not null</property>
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-17404&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-4000&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1479	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1479	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{726f6119-7f76-4ba5-8934-4b01dff20224}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{05D80AA6-204C-4732-9B60-E86A1EEFF6A5}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{4FE32F99-8CAC-4624-95EE-3B7B30F05C3F}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:PathAnnotation&gt;PathName&lt;/dwd:PathAnnotation&gt;&lt;dwd:SourceName&gt;Dynamics CRM Destination Error Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Flat File Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{726f6119-7f76-4ba5-8934-4b01dff20224}-3703</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{0C3BFC0D-503F-4929-80FB-68EDD94C9398}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{89886F40-8C5E-44BA-B9BB-1AF45B17C89A}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;OLE DB Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Dynamics CRM Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{726f6119-7f76-4ba5-8934-4b01dff20224}-3790</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{A883774D-D6CB-48FA-A677-30438DC7D653}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{3BF38589-E72C-4437-83AE-77EDF77E8790}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -1560,7 +1560,7 @@ where users.domainname is not null</property>
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{D35F692E-A87A-4BA6-B37A-B76737C6E621}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{DDF8939E-03E4-4B0C-A640-435262BC53A2}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{AB8CD501-99E5-4A1A-A7E4-BAD881B99A7D}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -1591,6 +1591,6 @@ where users.domainname is not null</property>
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">package-diagram</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{8E41D017-5B2E-4905-964D-8B3A4E3E4232}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{7DDB971D-4079-4F66-BCF1-C31AC2F23808}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable></DTS:Executable>
