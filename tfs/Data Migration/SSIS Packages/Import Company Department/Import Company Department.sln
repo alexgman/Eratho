@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "Import Company Department", "Import Company Department\Import Company Department.dtproj", "{987B3574-3FE2-42C2-95A7-8F1D9F041F3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{987B3574-3FE2-42C2-95A7-8F1D9F041F3B}.Development|Default.ActiveCfg = Development
+		{987B3574-3FE2-42C2-95A7-8F1D9F041F3B}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
