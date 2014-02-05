@@ -439,7 +439,17 @@ BEGIN
 					,vth_jobtitle = JobTitle.DestinationValue
 					,vth_Department = NULL
 					,vth_Source = I.iSourceId
-					,vth_ExportStatus = I.vchUser3
+					,vth_ExportStatus = (CASE 
+                        WHEN 
+                              I.vchUser3 = 101410 
+                                  THEN 999990001 --ON-Hold
+                        WHEN 
+                              I.vchUser3= 102927 
+                                  THEN 999990002 --Cleared
+                        ELSE
+                        NULL
+                  END)
+
 					,vth_Country = CT.DestinationValue
 					,vth_State = RST.DestinationValue 
 					,Address1_AddressTypeCode = CASE(I.iAddressTypeId)
