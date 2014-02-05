@@ -10,8 +10,8 @@
 <DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
 <DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
 <DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
-<DTS:Property DTS:Name="VersionBuild">26</DTS:Property>
-<DTS:Property DTS:Name="VersionGUID">{E34654C6-9758-427E-B048-6111402DFE9B}</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">30</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{F68AB0BB-3E6A-459F-9C38-39F3078F08E7}</DTS:Property>
 <DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
 <DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
 <DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
@@ -23,14 +23,14 @@
 <DTS:Property DTS:Name="DTSID">{5cdc62f2-f3f1-4449-a67e-cbcb9fa7e023}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
-<DTS:Property DTS:Name="Retain">0</DTS:Property><DTS:Password DTS:Name="Password" Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAyGGNbKk0viqIqx6chs8D2AAAAAASAAACgAAAAEAAAAFGORO6qSsEovwCPk2a2IBgQAAAAdQsAwKioFNpqifl28eMQ8xQAAAAx0MOLpzz1wRDCAl8NCZvdy8TPaw</DTS:Password>
+<DTS:Property DTS:Name="Retain">0</DTS:Property><DTS:Password DTS:Name="Password" Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACe66D95tOQ/inbo/dMDZNXAAAAAASAAACgAAAAEAAAAMCSPPnfbEkpiA5GycBRAP0QAAAAAZLOr2SzuG//okprmoMwIxQAAABBYjKtoDkgqpMKIWWfGt+C0x1Xzg</DTS:Password>
 <DTS:Property DTS:Name="ConnectionString">Data Source=BOCP-d-db04;User ID=alexg;Initial Catalog=CRM_Staging;Provider=SQLNCLI10.1;Persist Security Info=True;Application Name=SSIS-Package-{6147074E-DFBC-4B86-88A3-18579B28E5B3}BOCP-d-db04.CRM_Staging.alexg;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Dynamics CRM Connection Manager</DTS:Property>
 <DTS:Property DTS:Name="DTSID">{6a9ec5c8-1aeb-4ca8-970a-5cb4522bdbf6}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName">DynamicsCRM</DTS:Property><DTS:ObjectData><CrmConnectionManager ConnectionString="AuthenticationType=ActiveDirectory;ServiceEndpoint=Soap2011;DiscoveryServerUrl=http://bocp-t-crm0;UserName=alexg;Domain=dxu;OrganizationName=DM1;CrmServerUrl=http://bocp-t-crm0.dxu.com/DM1;ProxyUsername=;ProxyServer=;ProxyServerPort=0;SdkClientVersion=;HomeRealmUri=;ServiceTimeout=120"><Password Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADxNlGzGUKY30WTK7CCwSjiAAAAAASAAACgAAAAEAAAAMWIYT505xIc+ZAAYzErotYYAAAAIy6yFKgvyrIyqRaH0XEb44BvXypy/Be5FAAAALg3q+r5SKQXkeHUZ7NP1f63Mlmb</Password></CrmConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:Property DTS:Name="CreationName">DynamicsCRM</DTS:Property><DTS:ObjectData><CrmConnectionManager ConnectionString="AuthenticationType=ActiveDirectory;ServiceEndpoint=Soap2011;DiscoveryServerUrl=http://bocp-t-crm0;UserName=alexg;Domain=dxu;OrganizationName=DM1;CrmServerUrl=http://bocp-t-crm0.dxu.com/DM1;ProxyUsername=;ProxyServer=;ProxyServerPort=0;SdkClientVersion=;HomeRealmUri=;ServiceTimeout=120"><Password Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABgMo5Xq/mIYturULdIyfceAAAAAASAAACgAAAAEAAAALHwfm2862OtRN7V2R2HS+YYAAAATTD55DNiqQcCIXo2vtdpKyl846QxukdJFAAAAN4NfzURPAKfvtlGkP6J9M5DQSpm</Password></CrmConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Flat File Connection Manager</DTS:Property>
@@ -381,7 +381,7 @@
 <property id="2" name="CommandTimeout" dataType="System.Int32" state="default" isArray="false" description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">0</property>
 <property id="3" name="OpenRowset" dataType="System.String" state="default" isArray="false" description="Specifies the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">[dbo].[Contact]</property>
 <property id="4" name="OpenRowsetVariable" dataType="System.String" state="default" isArray="false" description="Specifies the variable that contains the name of the database object used to open a rowset." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
-<property id="5" name="SqlCommand" dataType="System.String" state="default" isArray="false" description="The SQL command to be executed." typeConverter="" UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" containsID="false" expressionType="None">select top 10
+<property id="5" name="SqlCommand" dataType="System.String" state="default" isArray="false" description="The SQL command to be executed." typeConverter="" UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" containsID="false" expressionType="None">select top 20
 'Contact' as Entity
 ,c.[ContactId]
       ,c.[DefaultPriceLevelId]
@@ -483,7 +483,7 @@
       ,c.[CreatedOnBehalfBy]
       ,c.[IsAutoCreate]
       ,c.[ModifiedOnBehalfBy]
-      ,c.[ParentCustomerId] as ownerid
+      ,account.accountid
       ,1 as [ParentCustomerIdType]
       ,c.[ParentCustomerIdName]
       ,c.[OwnerIdType]
@@ -508,12 +508,15 @@
       ,c.[Address1_StateOrProvince]
       ,c.[Address1_PostalCode]
       ,c.[Address1_Country]
+      ,account.ownerid
 
 
  from contact c
 
 left join crmtestdb.dm1_mscrm.dbo.accountbase account 
-    on c.parentcustomerid = account.accountid</property>
+    on c.parentcustomerid = account.accountid
+    
+    where account.ownerid is not null</property>
 <property id="6" name="SqlCommandVariable" dataType="System.String" state="default" isArray="false" description="The variable that contains the SQL command to be executed." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
 <property id="7" name="DefaultCodePage" dataType="System.Int32" state="default" isArray="false" description="Specifies the column code page to use when code page information is unavailable from the data source." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">1252</property>
 <property id="8" name="AlwaysUseDefaultCodePage" dataType="System.Boolean" state="default" isArray="false" description="Forces the use of the DefaultCodePage property value when describing character data." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">false</property>
@@ -647,7 +650,8 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
 <outputColumn id="22003" name="PreferredAppointmentTimeCode" description="" lineageId="22003" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="22002" mappedColumnId="0"/>
 <outputColumn id="22006" name="DoNotSendMM" description="" lineageId="22006" precision="0" scale="0" length="0" dataType="bool" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="22005" mappedColumnId="0"/>
 <outputColumn id="22236" name="ContactId" description="" lineageId="22236" precision="0" scale="0" length="0" dataType="guid" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="22235" mappedColumnId="0"/>
-<outputColumn id="24180" name="ownerid" description="" lineageId="24180" precision="0" scale="0" length="0" dataType="guid" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="24179" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="True">
+<outputColumn id="24180" name="ownerid" description="" lineageId="24180" precision="0" scale="0" length="0" dataType="guid" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="24179" mappedColumnId="0"/>
+<outputColumn id="25105" name="accountid" description="" lineageId="25105" precision="0" scale="0" length="0" dataType="guid" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="Conversion" errorRowDisposition="FailComponent" truncationRowDisposition="FailComponent" externalMetadataColumnId="25104" mappedColumnId="0"/></outputColumns><externalMetadataColumns isUsed="True">
 <externalMetadataColumn id="256" name="Merged" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
 <externalMetadataColumn id="259" name="ExternalUserIdentifier" description="" precision="0" scale="0" length="100" dataType="wstr" codePage="0" mappedColumnId="0"/>
 <externalMetadataColumn id="262" name="SubscriptionId" description="" precision="0" scale="0" length="0" dataType="guid" codePage="0" mappedColumnId="0"/>
@@ -772,7 +776,8 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
 <externalMetadataColumn id="22002" name="PreferredAppointmentTimeCode" description="" precision="0" scale="0" length="0" dataType="i4" codePage="0" mappedColumnId="0"/>
 <externalMetadataColumn id="22005" name="DoNotSendMM" description="" precision="0" scale="0" length="0" dataType="bool" codePage="0" mappedColumnId="0"/>
 <externalMetadataColumn id="22235" name="ContactId" description="" precision="0" scale="0" length="0" dataType="guid" codePage="0" mappedColumnId="0"/>
-<externalMetadataColumn id="24179" name="ownerid" description="" precision="0" scale="0" length="0" dataType="guid" codePage="0" mappedColumnId="0"/></externalMetadataColumns></output>
+<externalMetadataColumn id="24179" name="ownerid" description="" precision="0" scale="0" length="0" dataType="guid" codePage="0" mappedColumnId="0"/>
+<externalMetadataColumn id="25104" name="accountid" description="" precision="0" scale="0" length="0" dataType="guid" codePage="0" mappedColumnId="0"/></externalMetadataColumns></output>
 <output id="12" name="OLE DB Source Error Output" description="" exclusionGroup="0" synchronousInputId="0" deleteOutputOnPathDetached="false" hasSideEffects="false" dangling="false" isErrorOut="true" isSorted="false" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed"><outputColumns>
 <outputColumn id="1467" name="Entity" description="" lineageId="1467" precision="0" scale="0" length="7" dataType="str" codePage="1252" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
 <outputColumn id="22237" name="ContactId" description="" lineageId="22237" precision="0" scale="0" length="0" dataType="guid" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
@@ -874,6 +879,7 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
 <outputColumn id="309" name="CreatedOnBehalfBy" description="" lineageId="309" precision="0" scale="0" length="0" dataType="guid" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
 <outputColumn id="312" name="IsAutoCreate" description="" lineageId="312" precision="0" scale="0" length="0" dataType="bool" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
 <outputColumn id="315" name="ModifiedOnBehalfBy" description="" lineageId="315" precision="0" scale="0" length="0" dataType="guid" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
+<outputColumn id="25106" name="accountid" description="" lineageId="25106" precision="0" scale="0" length="0" dataType="guid" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
 <outputColumn id="24181" name="ownerid" description="" lineageId="24181" precision="0" scale="0" length="0" dataType="guid" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
 <outputColumn id="321" name="ParentCustomerIdType" description="" lineageId="321" precision="0" scale="0" length="0" dataType="i4" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
 <outputColumn id="324" name="ParentCustomerIdName" description="" lineageId="324" precision="0" scale="0" length="200" dataType="wstr" codePage="0" sortKeyPosition="0" comparisonFlags="0" specialFlags="0" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="0" mappedColumnId="0"/>
@@ -1081,6 +1087,7 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
 <inputColumn id="22232" name="" description="" lineageId="21829" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="14815" mappedColumnId="0"/>
 <inputColumn id="22233" name="" description="" lineageId="21838" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="14820" mappedColumnId="0"/>
 <inputColumn id="22234" name="" description="" lineageId="21835" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="14825" mappedColumnId="0"/>
+<inputColumn id="25107" name="" description="" lineageId="25105" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="14655" mappedColumnId="0"/>
 </inputColumns><externalMetadataColumns isUsed="True">
 <externalMetadataColumn id="14160" name="accountrolecode" description="" precision="0" scale="0" length="0" dataType="i4" codePage="0" mappedColumnId="0"><properties>
 <property id="14161" name="CrmFieldType" dataType="System.String" state="default" isArray="false" description="" typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Picklist</property>
@@ -1866,6 +1873,7 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
 <inputColumn id="23100" name="" description="" lineageId="21829" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="22996" mappedColumnId="0"/>
 <inputColumn id="23101" name="" description="" lineageId="21838" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="23001" mappedColumnId="0"/>
 <inputColumn id="23102" name="" description="" lineageId="21835" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="23006" mappedColumnId="0"/>
+<inputColumn id="25108" name="" description="" lineageId="25105" usageType="readOnly" errorOrTruncationOperation="" errorRowDisposition="NotUsed" truncationRowDisposition="NotUsed" externalMetadataColumnId="22836" mappedColumnId="0"/>
 </inputColumns><externalMetadataColumns isUsed="True">
 <externalMetadataColumn id="22341" name="accountrolecode" description="" precision="0" scale="0" length="0" dataType="i4" codePage="0" mappedColumnId="0"><properties>
 <property id="22342" name="CrmFieldType" dataType="System.String" state="default" isArray="false" description="" typeConverter="" UITypeEditor="" containsID="false" expressionType="None">Picklist</property>
@@ -3246,12 +3254,12 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{3E2B63A6-7E5D-4C43-B7B4-C79A254B834C}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{B030A96D-87DC-4290-9694-315B9447B149}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{CB013CF2-E7C1-4851-A453-287FD9D15859}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;TaskHost xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsDataFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;-4502&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;-1275&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="162" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5502" scrolltop="1232" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="41249" y="19341" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="0" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="170" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5502" scrolltop="-2275" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="41249" y="19341" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="0" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -3502,7 +3510,7 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
     &lt;control&gt;
       &lt;ddsxmlobj&gt;
         &lt;polyline endtypedst="3" endtypesrc="1" usercolor="255" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1"&gt;
-          &lt;adornment percentpos="18.8298507462687" controlid="106" width="5508" height="344" side="0" behavior="2" himetric="1577" distfromline="175" startobj="0" x="12813" y="6236" visible="1" allowoverlap="1" usepercent="1" /&gt;
+          &lt;adornment percentpos="20.0238805970149" controlid="106" width="5508" height="344" side="0" behavior="2" himetric="1677" distfromline="175" startobj="0" x="12713" y="6236" visible="1" allowoverlap="1" usepercent="1" /&gt;
         &lt;/polyline&gt;
       &lt;/ddsxmlobj&gt;
     &lt;/control&gt;
@@ -3520,7 +3528,7 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
       &lt;point x="12669" y="7726" /&gt;
     &lt;/connector&gt;
   &lt;/ddscontrol&gt;
-  &lt;ddscontrol controlprogid="MSDDS.Text" left="12813" top="6236" logicalid="160" controlid="106" masterid="105" hint1="0" hint2="0" width="5508" height="344" noresize="1" nomove="0" nodefaultattachpoints="1" autodrag="1" usedefaultiddshape="1" selectable="0" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="1" groupcollapsed="0" tabstop="0" visible="1" snaptogrid="0"&gt;
+  &lt;ddscontrol controlprogid="MSDDS.Text" left="12713" top="6236" logicalid="160" controlid="106" masterid="105" hint1="0" hint2="0" width="5508" height="344" noresize="1" nomove="0" nodefaultattachpoints="1" autodrag="1" usedefaultiddshape="1" selectable="0" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="1" groupcollapsed="0" tabstop="0" visible="1" snaptogrid="0"&gt;
     &lt;control&gt;
       &lt;ddsxmlobjectstreaminitwrapper binary="000200008415000058010000030000000000050000800800008001000000250001000000900144420100065461686f6d612500440079006e0061006d006900630073002000430052004d002000440065007300740069006e006100740069006f006e0020004500720072006f00720020004f007500740070007500740000000000" /&gt;
     &lt;/control&gt;
@@ -3551,59 +3559,59 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
       &lt;point x="7960" y="12271" /&gt;
     &lt;/connector&gt;
   &lt;/ddscontrol&gt;
-&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-5502&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;1232&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1434	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1434	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
+&lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-5502&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-2275&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1434	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1434	TableInfoObjectType&lt;/dwd:key&gt;&lt;dwd:value xsi:type="xsd:string"&gt;Table&lt;/dwd:value&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{ddfb3072-0215-4f95-adf1-a6510999d87e}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{811F86E0-697F-40D9-9231-04B225B32AEA}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{F43CC151-3428-417F-9864-FBEF12C398D2}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Balanced Data Distributor Output 9&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Dynamics CRM Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{ddfb3072-0215-4f95-adf1-a6510999d87e}-12862</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{18EBBCC0-29EF-4857-9CD1-5EB40951B02E}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{D5110BF0-476D-4CFA-BC14-CAFC5F2905A9}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Case 1&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;OLE DB Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{ddfb3072-0215-4f95-adf1-a6510999d87e}-1464</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{9703B48F-1E9C-4060-A6ED-8A0A383BAA6B}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{D1620AEF-3C7F-4072-9417-DBD0269872B7}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:PathAnnotation&gt;PathName&lt;/dwd:PathAnnotation&gt;&lt;dwd:SourceName&gt;Dynamics CRM Destination Error Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Union All Input 1&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{ddfb3072-0215-4f95-adf1-a6510999d87e}-24185</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{DF497C64-B2FF-4B4A-ACB4-B4757145B9C9}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{96532606-869C-40DA-97E6-F0D05A5623CF}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:PathAnnotation&gt;PathName&lt;/dwd:PathAnnotation&gt;&lt;dwd:SourceName&gt;Dynamics CRM Destination Error Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Union All Input 2&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{ddfb3072-0215-4f95-adf1-a6510999d87e}-24574</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{10022B10-1836-4730-8364-0A55CBAA9247}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{5EC49187-B5A6-4FF0-BFEB-4CFD42C86995}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Union All Output 1&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Conditional Split Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{ddfb3072-0215-4f95-adf1-a6510999d87e}-24834</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{20994FD4-6C50-453B-90A2-90BAA6862DE7}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{5D8C28F5-960A-42FC-8509-BF293D0B1C73}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;OLE DB Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Balanced Data Distributor Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{ddfb3072-0215-4f95-adf1-a6510999d87e}-3302</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{0334F16B-D0C7-49E1-8D00-B1682ACDEB08}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{D851F09F-7CE6-471A-A730-BEEECD4B3443}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;Balanced Data Distributor Output 1&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Dynamics CRM Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{ddfb3072-0215-4f95-adf1-a6510999d87e}-3303</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{69D3F39E-D4E5-47BC-B07A-DA40BFE41AF0}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{47DEEC06-555B-43EF-B66D-60A8C902BDFE}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
@@ -3634,6 +3642,6 @@ left join crmtestdb.dm1_mscrm.dbo.accountbase account
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">package-diagram</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{8426C8DA-8A51-4AA9-940F-F962FF12C77D}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{97C59A3F-96D5-48DC-B561-179C37AB7094}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable></DTS:Executable>
