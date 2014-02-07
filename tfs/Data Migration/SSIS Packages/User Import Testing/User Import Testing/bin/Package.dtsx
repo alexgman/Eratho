@@ -10,8 +10,8 @@
 <DTS:Property DTS:Name="PackagePriorityClass">0</DTS:Property>
 <DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
 <DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
-<DTS:Property DTS:Name="VersionBuild">81</DTS:Property>
-<DTS:Property DTS:Name="VersionGUID">{FDD52F23-6F2B-4BA1-9527-D5C3E5674351}</DTS:Property>
+<DTS:Property DTS:Name="VersionBuild">84</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{62C77CA2-5893-4A5D-8443-C0D48A16E1AC}</DTS:Property>
 <DTS:Property DTS:Name="EnableConfig">0</DTS:Property>
 <DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
 <DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>
@@ -23,14 +23,14 @@
 <DTS:Property DTS:Name="DTSID">{6147074E-DFBC-4B86-88A3-18579B28E5B3}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName">OLEDB</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
-<DTS:Property DTS:Name="Retain">0</DTS:Property><DTS:Password DTS:Name="Password" Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACjPA66fEfWCdZ8LSqPFGxPAAAAAASAAACgAAAAEAAAAAuf7xtWjdqjFkJk0jjvsPcQAAAA2b4VmhRCLtRU2oYLWj6aNhQAAADjel7Aw8sKd24qr8S7ILKgxFbVrw</DTS:Password>
+<DTS:Property DTS:Name="Retain">0</DTS:Property><DTS:Password DTS:Name="Password" Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADng6R56hLXekMFQvw2w0cfAAAAAASAAACgAAAAEAAAAAr3OHTn0tGb48/EF58pWc8QAAAAL7j9k6FFMTiscRzKbcsLHhQAAAAJqKW0TEFksXY0AYXWmiWR84Jflg</DTS:Password>
 <DTS:Property DTS:Name="ConnectionString">Data Source=BOCP-d-db04;User ID=alexg;Initial Catalog=CRM_Staging;Provider=SQLNCLI10.1;Persist Security Info=True;Application Name=SSIS-Package-{6147074E-DFBC-4B86-88A3-18579B28E5B3}BOCP-d-db04.CRM_Staging.alexg;</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Dynamics CRM Connection Manager</DTS:Property>
 <DTS:Property DTS:Name="DTSID">{373FFB82-F545-43CD-82CF-ED9799958EE5}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName">DynamicsCRM</DTS:Property><DTS:ObjectData><CrmConnectionManager ConnectionString="AuthenticationType=ActiveDirectory;ServiceEndpoint=Soap2011;DiscoveryServerUrl=http://bocp-t-crm0;UserName=alexg;Domain=dxu;OrganizationName=DM1;CrmServerUrl=http://bocp-t-crm0.dxu.com/DM1;ProxyUsername=;ProxyServer=;ProxyServerPort=0;SdkClientVersion=;HomeRealmUri=;ServiceTimeout=120"><Password Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABo7Ei//J2WwNvKU22D+nJlAAAAAASAAACgAAAAEAAAAIJPqSJaWrwkrzfjF+nZB38YAAAAeRFnZzagRIgFCHiAAoQdkZRIZ97FcrZnFAAAAFW+8a2f4Q6iIQKjQNasxrOCwACR</Password></CrmConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
+<DTS:Property DTS:Name="CreationName">DynamicsCRM</DTS:Property><DTS:ObjectData><CrmConnectionManager ConnectionString="AuthenticationType=ActiveDirectory;ServiceEndpoint=Soap2011;DiscoveryServerUrl=http://bocp-t-crm0;UserName=alexg;Domain=dxu;OrganizationName=DM1;CrmServerUrl=http://bocp-t-crm0.dxu.com/DM1;ProxyUsername=;ProxyServer=;ProxyServerPort=0;SdkClientVersion=;HomeRealmUri=;ServiceTimeout=120"><Password Sensitive="1" Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYP93qqctEkGOkknlVdl9awAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAPZ1IZPNqsBDGQaGxM4lGQAAAAAASAAACgAAAAEAAAAJ3xrYC2jl2UVSof7XBHH0gYAAAALestyY2V44fhmp5jESpyDtv9dWXkGdwiFAAAAEZt+2gEsAghmiXiVTQoJ2djCDAq</Password></CrmConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:ConnectionManager>
 <DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">Flat File Connection Manager</DTS:Property>
@@ -335,310 +335,6 @@
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
 <DTS:Property DTS:Name="ConnectionString">C:\Users\agordon\Documents\CRMErrorOutput.txt</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
-<DTS:ConnectionManager>
-<DTS:Property DTS:Name="DelayValidation">0</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">Flat File Connection Manager 1</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{466E690C-44E4-46E2-9BC0-D370573FFE21}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName">FLATFILE</DTS:Property><DTS:ObjectData><DTS:ConnectionManager>
-<DTS:Property DTS:Name="FileUsageType">0</DTS:Property>
-<DTS:Property DTS:Name="Format">Delimited</DTS:Property>
-<DTS:Property DTS:Name="LocaleID">1033</DTS:Property>
-<DTS:Property DTS:Name="Unicode">0</DTS:Property>
-<DTS:Property DTS:Name="HeaderRowsToSkip">0</DTS:Property>
-<DTS:Property DTS:Name="HeaderRowDelimiter" xml:space="preserve">_x000D__x000A_</DTS:Property>
-<DTS:Property DTS:Name="ColumnNamesInFirstDataRow">0</DTS:Property>
-<DTS:Property DTS:Name="RowDelimiter" xml:space="preserve"></DTS:Property>
-<DTS:Property DTS:Name="DataRowsToSkip">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualifier" xml:space="preserve">_x003C_none_x003E_</DTS:Property>
-<DTS:Property DTS:Name="CodePage">1252</DTS:Property>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">72</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">systemuserid</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{CA988A02-FCA7-4033-BBFD-08A01F4365DC}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">510</DTS:Property>
-<DTS:Property DTS:Name="DataType">130</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">domainname</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{480101FD-30E1-4D2A-87A6-BB2DF81DC08A}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">100</DTS:Property>
-<DTS:Property DTS:Name="DataType">130</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">firstname</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{988A57A5-369F-4FE6-813B-721939633CBC}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">100</DTS:Property>
-<DTS:Property DTS:Name="DataType">130</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">lastname</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{649F8CB7-5595-4930-AB6D-37315A470EDC}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">isdisabled</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{C57C6590-F37B-4C27-B68B-CFCDC13FF73A}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">11</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">setupuser</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{601CB4AF-80A5-4F50-817D-4A71ABDD80F0}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">incomingemaildeliverymethod</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{A30D48BF-861B-49B7-B3D8-F95D327E6908}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">outgoingemaildeliverymethod</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{7D452EDF-8D3D-4B98-A5A8-6DD7E52E6466}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">AccessMode</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{0FCDC990-BAE2-4D0F-8DA7-BFB125572D11}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">InviteStatusCode</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{04FD1E4E-0AAC-4B41-8511-1FF6952D0A76}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">11</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">IsActiveDirectoryUser</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{57C8ECA3-897E-499D-A290-68172C4A0D1B}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">11</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">DefaultFiltersPopulated</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{9F0E91DF-4A83-4E72-9FB8-1DAFF6CF49B8}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">CALType</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{68853F6B-D794-4418-84AD-1C36524968E8}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">IsEmailAddressApprovedByO365Admin</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{A62DED6F-009E-4D55-8381-03FEB9EA9483}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">11</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">IsLicensed</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{D04A2C77-186C-47C8-AF6E-C767B4137155}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">72</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">OrganizationId</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{914D73AA-08CB-416F-975C-38B1F9AA4D1B}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">72</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">BusinessUnitId</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{DC0A0168-3729-4590-851E-353CB4BE450B}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">issyncwithdirectory</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{DB2DA62B-D4E0-4DD6-A397-FE608228B2A2}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">ErrorCode</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{FDBB94DB-E9B8-49C1-A9BB-0EEDDDBC8D59}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">3</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">ErrorColumn</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{C2B0C454-4D82-45D0-8093-E89D9BDBAE34}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x002C_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">0</DTS:Property>
-<DTS:Property DTS:Name="DataType">72</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">Id</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{E29C6F33-0CCC-44CF-9BCD-ADBFE367773B}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ColumnType">Delimited</DTS:Property>
-<DTS:Property DTS:Name="ColumnDelimiter" xml:space="preserve">_x000D__x000A_</DTS:Property>
-<DTS:Property DTS:Name="ColumnWidth">0</DTS:Property>
-<DTS:Property DTS:Name="MaximumWidth">2048</DTS:Property>
-<DTS:Property DTS:Name="DataType">130</DTS:Property>
-<DTS:Property DTS:Name="DataPrecision">0</DTS:Property>
-<DTS:Property DTS:Name="DataScale">0</DTS:Property>
-<DTS:Property DTS:Name="TextQualified">-1</DTS:Property>
-<DTS:Property DTS:Name="ObjectName">CrmErrorMessage</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{B5BE812C-4286-49CA-95D5-800C5258D2AE}</DTS:Property>
-<DTS:Property DTS:Name="Description"></DTS:Property>
-<DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:FlatFileColumn>
-<DTS:Property DTS:Name="ConnectionString">C:\Users\agordon\Documents\CRMErrorOutput2.txt</DTS:Property></DTS:ConnectionManager></DTS:ObjectData></DTS:ConnectionManager>
 <DTS:Property DTS:Name="LastModifiedProductVersion">10.50.2500.0</DTS:Property>
 <DTS:Property DTS:Name="ForceExecValue">0</DTS:Property>
 <DTS:Property DTS:Name="ExecValue" DTS:DataType="3">0</DTS:Property>
@@ -1258,6 +954,15 @@ systemuserid--
 
 WHERE  domainname is not null
 
+and domainname not in (
+'dxu\alexg',
+'dxu\joeb')
+
+
+and systemuserid not in 
+
+(select systemuserid from crmtestdb.dm1_mscrm.dbo.systemuserbase)
+
 order by lastname desc ,firstname desc</property>
 <property id="1484" name="SqlCommandVariable" dataType="System.String" state="default" isArray="false" description="The variable that contains the SQL command to be executed." typeConverter="" UITypeEditor="" containsID="false" expressionType="None"></property>
 <property id="1485" name="DefaultCodePage" dataType="System.Int32" state="default" isArray="false" description="Specifies the column code page to use when code page information is unavailable from the data source." typeConverter="" UITypeEditor="" containsID="false" expressionType="None">1252</property>
@@ -1396,9 +1101,9 @@ order by lastname desc ,firstname desc</property>
 <DTS:Property DTS:Name="DisableEventHandlers">0</DTS:Property>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;TaskHost xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsDataFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;-3151&lt;/dwd:BoundingLeft&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4151" scrolltop="-839" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="30506" y="19341" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="0" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="19" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4151" scrolltop="-839" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="41249" y="19341" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="0" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
-      &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
+      &lt;ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" /&gt;
     &lt;/font&gt;
     &lt;mouseicon&gt;
       &lt;ddsxmlobjectstreamwrapper binary="6c74000000000000" /&gt;
@@ -1499,26 +1204,26 @@ order by lastname desc ,firstname desc</property>
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-4151&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-839&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsDataFlowDiagram&gt;&lt;dwd:DtsComponentDesignerPropertiesList&gt;&lt;dwd:DtsComponentDesignTimeProperty&gt;&lt;dwd:key xsi:type="xsd:string"&gt;1479	DataSourceViewID&lt;/dwd:key&gt;&lt;/dwd:DtsComponentDesignTimeProperty&gt;&lt;/dwd:DtsComponentDesignerPropertiesList&gt;&lt;/TaskHost&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{CF068C87-A7E4-41A9-9C38-8343A9D1C1AF}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{B55639F0-4D96-4990-B21F-20DD1CF86C7D}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{AFFE1307-2004-4422-AC9F-75CC530C2AC9}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:PathAnnotation&gt;PathName&lt;/dwd:PathAnnotation&gt;&lt;dwd:SourceName&gt;Dynamics CRM Destination Error Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Flat File Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{CF068C87-A7E4-41A9-9C38-8343A9D1C1AF}-3703</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{528AC1AD-3926-4B64-B906-1CDB955AD16C}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{939EDE92-105B-4414-B430-E7A250879B0E}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;PipelinePath xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:SourceName&gt;OLE DB Source Output&lt;/dwd:SourceName&gt;&lt;dwd:DestinationName&gt;Dynamics CRM Destination Input&lt;/dwd:DestinationName&gt;&lt;/PipelinePath&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{CF068C87-A7E4-41A9-9C38-8343A9D1C1AF}-3790</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{1AB0DD60-4D6A-4DC8-9A40-F4A02A5E7B17}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{EC0A0AF0-13F1-406C-AA77-654362411CC1}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;-9133&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;-6439&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10133" scrolltop="-7439" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="30506" y="20267" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10133" scrolltop="-7439" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="41249" y="20267" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -1544,12 +1249,12 @@ order by lastname desc ,firstname desc</property>
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-10133&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-7439&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">{E02C771B-9B07-495A-8371-62E9DCC6FD0A}</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{CFAE493E-8AB7-4EFC-AD3B-1685E9CB10F2}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{0A226910-F5BA-4AFD-B9DA-43BDC05E6C5A}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable>
 <DTS:PackageVariable>
 <DTS:Property DTS:Name="PackageVariableValue" DTS:DataType="8">&lt;Package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0"&gt;&lt;dwd:DtsControlFlowDiagram&gt;&lt;dwd:BoundingLeft&gt;-9133&lt;/dwd:BoundingLeft&gt;&lt;dwd:BoundingTop&gt;-6439&lt;/dwd:BoundingTop&gt;&lt;dwd:Layout&gt;&lt;dds&gt;
-  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10133" scrolltop="-7439" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="30506" y="20267" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
+  &lt;diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="Microsoft.DataWarehouse.Layout.GraphLayout100" defaultlineroute="Microsoft.DataWarehouse.Layout.GraphLayout100" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10133" scrolltop="-7439" gridx="150" gridy="150" marginx="1000" marginy="1000" zoom="100" x="41249" y="20267" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="1" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}"&gt;
     &lt;font&gt;
       &lt;ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" /&gt;
     &lt;/font&gt;
@@ -1575,6 +1280,6 @@ order by lastname desc ,firstname desc</property>
 &lt;/dds&gt;&lt;/dwd:Layout&gt;&lt;dwd:PersistedViewPortLeft&gt;-10133&lt;/dwd:PersistedViewPortLeft&gt;&lt;dwd:PersistedViewPortTop&gt;-7439&lt;/dwd:PersistedViewPortTop&gt;&lt;/dwd:DtsControlFlowDiagram&gt;&lt;/Package&gt;</DTS:Property>
 <DTS:Property DTS:Name="Namespace">dts-designer-1.0</DTS:Property>
 <DTS:Property DTS:Name="ObjectName">package-diagram</DTS:Property>
-<DTS:Property DTS:Name="DTSID">{7325D017-3816-44DF-A306-F67D75B717FE}</DTS:Property>
+<DTS:Property DTS:Name="DTSID">{332EB8D4-0D08-4526-A1C7-1590481F8D6C}</DTS:Property>
 <DTS:Property DTS:Name="Description"></DTS:Property>
 <DTS:Property DTS:Name="CreationName"></DTS:Property></DTS:PackageVariable></DTS:Executable>
