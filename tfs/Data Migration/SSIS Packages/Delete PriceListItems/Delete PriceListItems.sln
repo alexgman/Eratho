@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "Delete PriceListItems", "Delete PriceListItems\Delete PriceListItems.dtproj", "{EF2A0404-33ED-48E0-9484-9691F6B7DF0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF2A0404-33ED-48E0-9484-9691F6B7DF0D}.Development|Default.ActiveCfg = Development
+		{EF2A0404-33ED-48E0-9484-9691F6B7DF0D}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
