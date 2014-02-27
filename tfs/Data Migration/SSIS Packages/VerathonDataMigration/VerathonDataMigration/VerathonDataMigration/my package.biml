@@ -1,0 +1,16 @@
+<Biml xmlns="http://schemas.varigence.com/biml.xsd">
+	<Packages>
+		<# for(int i = 1; i <= 5; i++) { #>
+		<Package Name="MyPackage<#=i#>" ConstraintMode="Linear">
+			<Tasks>
+				<# if(i%2==0) { #>
+				<Container Name="SEQ" ConstraintMode="Linear">
+				</Container>
+				<# } #>
+				<Dataflow Name="My Dataflow">
+				</Dataflow>
+			</Tasks>
+		</Package>
+		<# } #>
+	</Packages>
+</Biml>
